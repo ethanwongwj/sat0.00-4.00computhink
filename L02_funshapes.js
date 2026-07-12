@@ -9,8 +9,8 @@ function setup() {
 }
 
 function draw() {
-  fill
-}
+  FileSystemDirectoryHandle()
+
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
@@ -24,3 +24,4 @@ function draw() {
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
+}
