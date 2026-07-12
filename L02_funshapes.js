@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   fill("gold");
-  Circle(80,80,100)
+  Circle(80,80,100);
 
   // Challenge 1: An eye using ellipse() function
 
