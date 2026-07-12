@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  FileSystemDirectoryHandle()
+  Fil
 
   // Challenge 1: An eye using ellipse() function
 
