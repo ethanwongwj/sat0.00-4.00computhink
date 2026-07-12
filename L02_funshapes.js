@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  Fill
+  fill
 
   // Challenge 1: An eye using ellipse() function
 
