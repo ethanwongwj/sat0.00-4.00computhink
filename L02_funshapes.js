@@ -15,11 +15,12 @@ function draw() {
 function draw() {
   fill("pink");
   ellipse(300,400,100,200);
-  ellipse(300,400)
+  ellipse(300,400,50,100)
 }
 function draw() {
   fill("black");
   rect(670,800,100,200);
+  
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
