@@ -13,11 +13,11 @@ function draw() {
   circle(80,80,100);
 }
 function draw() {
-  fill("gold");
+  fill("pink");
   ellipse(300,400,100,200);
 }
 function draw() {
-  fill("gold");
+  fill("black");
   rect(670,800,100,200);
   // Challenge 1: An eye using ellipse() function
 
