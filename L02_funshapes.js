@@ -20,10 +20,7 @@ function draw() {
 }
 function draw() {
   fill("black");
-  rect(670,800,100,200);
-  fill("white");
-  rect(670,800,100,100,40,40,40,40);
-}
+  rect(670,800,100,200);}
 function draw() {
   fill("gold");
   triangle(30,75,58,20,86,75);
