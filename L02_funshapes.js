@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   fill("gold");
-  circle(80,80,100);
+  circle(800,800,100);
 }
 function draw() {
   fill("pink");
