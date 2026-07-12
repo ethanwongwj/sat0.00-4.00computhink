@@ -4,7 +4,7 @@ Task 1: Add the setup() function
 
 function setup() {
    //           w     h
-  createCanvas(100, 600);
+  createCanvas(100, 1000);
   background("red");
 }
 
@@ -18,7 +18,7 @@ function draw() {
 }
 function draw() {
   fill("gold");
-  rect(670,800,100);
+  rect(670,800,100,200);
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
