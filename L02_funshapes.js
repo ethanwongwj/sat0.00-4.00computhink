@@ -4,8 +4,8 @@ Task 1: Add the setup() function
 
 function setup() {
    //           w     h
-  createCanvas(1200, 600);
-  background(220);
+  createCanvas(1, 600);
+  background("red");
 }
 
 function draw() {
