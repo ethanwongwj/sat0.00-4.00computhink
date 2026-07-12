@@ -26,7 +26,7 @@ function draw() {
 }
 function draw() {
   fill("gold");
-  triangle(30,75,58,20,);
+  triangle(30,75,58,20,86,75);
   fill()
 
   // Challenge 1: An eye using ellipse() function
