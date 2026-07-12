@@ -22,7 +22,7 @@ function draw() {
   fill("black");
   rect(670,800,100,200);
   fill("white");
-  rect(670,800,100,100);
+  rect(670,800,100,100,40,40,40,40);
 }
 function draw() {
   fill("gold");
