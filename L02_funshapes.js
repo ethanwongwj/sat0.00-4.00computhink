@@ -22,7 +22,7 @@ function draw() {
   fill("black");
   rect(670,800,100,200);
   fill("white");
-  
+  rect(670,800,)
 
   // Challenge 1: An eye using ellipse() function
 
