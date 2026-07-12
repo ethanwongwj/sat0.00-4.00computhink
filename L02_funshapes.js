@@ -3,8 +3,10 @@ Task 1: Add the setup() function
 */
 
 function setup() {
-  createCanvas(1200, 600)
-  background(220)
+   //           w     h
+  createCanvas(1200, 600);
+  background(220);
+}
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
@@ -18,4 +20,3 @@ function setup() {
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
-}
