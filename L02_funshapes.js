@@ -16,7 +16,7 @@ function draw() {
   fill("pink");
   ellipse(300,400,100,200);
   fill("red");
-  ellipse(300,400,50,100)
+  ellipse(300,400,50,100);
 }
 function draw() {
   fill("black");
