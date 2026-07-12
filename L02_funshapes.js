@@ -15,12 +15,11 @@ function draw() {
 function draw() {
   fill("pink");
   ellipse(300,400,100,200);
-  fill("red");
-  ellipse(300,400,50,100);
 }
 function draw() {
   fill("black");
-  rect(670,800,100,200);}
+  rect(670,800,100,200);
+}
 function draw() {
   fill("gold");
   triangle(30,75,58,20,86,75);
