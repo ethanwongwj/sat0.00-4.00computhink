@@ -18,7 +18,7 @@ function draw() {
 }
 function draw() {
   fill("gold");
-  rect(,80,100);
+  rect(670,800,100);
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
