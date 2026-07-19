@@ -12,7 +12,7 @@ function draw() {
     circle(350,50,50)
 }
 
-
+let circle
 for (let i = 1; i < 11; i++ ) {
   
 }
