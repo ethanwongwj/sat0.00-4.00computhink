@@ -4,7 +4,7 @@ Task 1: Add the setup() function
 
 function setup() {
    //           w     h
-  createCanvas(1000, 1000);
+  createCanvas(400, 1000);
   background(90);
 }
 
