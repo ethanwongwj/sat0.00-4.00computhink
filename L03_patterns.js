@@ -17,7 +17,7 @@ let circleY = 50;
 for (let i = 1; i < 11; i++ ) {
   let circol = ( i * 50 )
   if (circol > 254){
-    circol = CIRCOL
+    circol = circol - circol
   }
   fill(circol,0,0)
   circle(50*i, circleY*i, circleDiameter)
