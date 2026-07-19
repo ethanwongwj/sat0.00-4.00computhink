@@ -46,9 +46,9 @@ function draw() {
   fill("gold");
   triangle(130,225, 158, 170, 186, 225);
   fill("gray")
-  circle(158,100,20)
+  circle(158,250,20)
   fill("green")
-  rect(133,150,50,25)
+  rect(133,300,50,25)
   fill("orange")
   ellipse(258,100,55,120)
   fill("gold");
