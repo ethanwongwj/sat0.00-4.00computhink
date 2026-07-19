@@ -5,11 +5,11 @@ function setup() {
   }
   
 function draw() {
-  fill("blue");
-  circle(50,50,100);
-  circle(150,50,100);
-  circle(250,50,100);
-  circle(350,50,100);
+    fill("blue");
+    circle(50,50,100);
+    circle(150,50,100);
+    circle(250,50,100);
+    circle(350,50,100);
 }
   // Recap 1: Repeating Circles\
 
