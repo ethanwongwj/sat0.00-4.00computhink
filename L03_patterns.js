@@ -34,7 +34,7 @@ function draw() {
 
   // Task 2: Colour Loop
   fill(Colour);
-  Colour = Colour + 50;
+  Colour = Colour + 1;
   if (Colour > 255) {
     Colour = 0;
   }
