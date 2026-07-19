@@ -16,7 +16,7 @@ function draw() {
   fill("gray")
   circle(58,100,20)
   fill("green")
-  rect(58,150,100,50)
+  rect(58,150,50,25)
 }
 
 
