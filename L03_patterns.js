@@ -2,6 +2,8 @@ function setup() {
     createCanvas(600, 400);
     background(220);
   }
+
+let Colour = 0;
   
 function draw() {
     fill("blue")
