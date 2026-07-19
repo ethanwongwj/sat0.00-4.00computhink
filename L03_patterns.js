@@ -15,7 +15,7 @@ function draw() {
 let circleDiameter = 50;
 let circleY = 50;
 for (let i = 1; i < 11; i++ ) {
-  circle(50*num, circleY*num, circleDiameter)
+  circle(50*num, 50*num, circleDiameter)
 }
   // Recap 1: Repeating Circles\
 
