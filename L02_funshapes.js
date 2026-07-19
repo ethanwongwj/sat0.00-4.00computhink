@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  fill("")
+  fill("gold")
 }
 function draw() {
   fill("gold");
