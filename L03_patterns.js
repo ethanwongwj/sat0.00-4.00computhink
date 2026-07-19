@@ -17,8 +17,8 @@ let circleY = 50;
 for (let i = 1; i < 11; i++ ) {
   fill(i*25)
   circle(50*i, circleY*i, circleDiameter)
-  circle(50*i, circleY, circleDiameter)
-  circle(50, circleY*i, circleDiameter)
+  // circle(50*i, circleY, circleDiameter)
+  // circle(50, circleY*i, circleDiameter)
 }
   // Recap 1: Repeating Circles\
 
