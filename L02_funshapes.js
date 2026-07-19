@@ -40,11 +40,11 @@ function draw() {
   fill("gray")
   circle(58,250,20)
   fill("green")
-  rect(33,150,50,25)
+  rect(33,300,50,25)
   fill("orange")
-  ellipse(158,100,55,120)
+  ellipse(158,250,55,120)
   fill("gold");
-  triangle(130, 75, 158, 20, 186, 75);
+  triangle(130,225, 158, 20, 186, 75);
   fill("gray")
   circle(158,100,20)
   fill("green")
