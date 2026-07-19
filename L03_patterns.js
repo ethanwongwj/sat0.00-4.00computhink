@@ -19,7 +19,7 @@ for (let i = 1; i < 11; i++ ) {
   if (circol > 254){
     circol = 0
   }
-  fill()
+  fill("circol",0,0)
   circle(50*i, circleY*i, circleDiameter)
   // circle(50*i, circleY, circleDiameter)
   // circle(50, circleY*i, circleDiameter)
