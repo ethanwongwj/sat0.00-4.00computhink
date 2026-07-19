@@ -15,6 +15,7 @@ function draw() {
   triangle(30, 75, 58, 20, 86, 75);
   fill("gray")
   circle(58,100,20)
+  fill("")
 }
 
 
