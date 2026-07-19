@@ -11,12 +11,11 @@ function draw() {
     // circle(250,50,50)
     // circle(350,50,50)
 
-
+let circlecolour
 let circleDiameter = 50;
 let circleY = 50;
 for (let i = 1; i < 11; i++ ) {
-  fill(i * 25)
-  if
+  
   circle(50*i, circleY*i, circleDiameter)
   // circle(50*i, circleY, circleDiameter)
   // circle(50, circleY*i, circleDiameter)
