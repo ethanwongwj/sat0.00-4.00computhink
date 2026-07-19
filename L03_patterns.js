@@ -35,6 +35,9 @@ function draw() {
   // Task 2: Colour Loop
   fill(Colour);
   Colour = Colour + 50;
+  if (Colour > 255) {
+    Colour = 0;
+  }
   circle(50,50,50);
   // Task 3: Row of Circles
 
