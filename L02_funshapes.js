@@ -22,9 +22,9 @@ function draw() {
   fill("gold");
   triangle(130, 75, 158, 20, 186, 75);
   fill("gray")
-  circle(58,100,20)
+  circle(158,100,20)
   fill("green")
-  rect(33,150,50,25)
+  rect(133,150,50,25)
 }
 
 
