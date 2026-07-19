@@ -19,7 +19,7 @@ function draw() {
    fill(Colour);
   Colour = Colour + 0.5;
   if (Colour > 255) {
-    Colour = colour - 0.5
+    Colour = 0
   }
    circle(50*i, circleY*i, circleDiameter)
    // circle(50*i, circleY, circleDiameter)
