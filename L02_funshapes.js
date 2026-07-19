@@ -13,6 +13,7 @@ function draw() {
   ellipse(58,100,55,120)
   fill("gold");
   triangle(30, 75, 58, 20, 86, 75);
+  fill("")
 }
 
 
