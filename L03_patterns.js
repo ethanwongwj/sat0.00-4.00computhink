@@ -33,7 +33,8 @@ function draw() {
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
-  fill(Colour)
+  fill(Colour);
+  Colour = Colour + 50;
   circle(50,50,50);
   // Task 3: Row of Circles
 
