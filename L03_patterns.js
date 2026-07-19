@@ -16,6 +16,7 @@ let circleDiameter = 50;
 let circleY = 50;
 for (let i = 1; i < 11; i++ ) {
   circle(50*i, circleY*i, circleDiameter)
+  circle(50*i, circleY, circleDiameter)
 }
   // Recap 1: Repeating Circles\
 
