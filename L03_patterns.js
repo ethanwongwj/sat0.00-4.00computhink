@@ -5,7 +5,7 @@ function setup() {
   }
   
 function draw() {
-  fill("skyblue");
+  fill("blue");
   circle(50,50,100);
   circle(150,50,100);
   circle(250,50,100);
