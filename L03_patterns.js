@@ -5,7 +5,7 @@ function setup() {
   }
   
 function draw() {
-  
+  circle()
 }
   // Recap 1: Repeating Circles\
 
