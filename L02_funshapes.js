@@ -8,6 +8,7 @@ function setup() {
   background(90);
 }
 
+function draw() {}
 function draw() {
   fill("gold");
   triangle(30, 75, 58, 20, 86, 75);
