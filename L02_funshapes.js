@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   fill("gold")
-  ellipse(50,50,100)
+  ellipse(50,50,100,10)
 }
 function draw() {
   fill("gold");
