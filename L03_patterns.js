@@ -6,11 +6,11 @@ function setup() {
   
 function draw() {
     fill("blue")
-    circle(50,50,50)
-    circle(150,50,50)
-    circle(250,50,50)
-    circle(350,50,50)
-}
+    // circle(50,50,50)
+    // circle(150,50,50)
+    // circle(250,50,50)
+    // circle(350,50,50)
+
 
 let circleDiameter = 50;
 let circleY = 50;
@@ -26,3 +26,4 @@ for (let i = 1; i < 5; i++ ) {
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
+}
