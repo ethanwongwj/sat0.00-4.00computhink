@@ -6,10 +6,10 @@ function setup() {
   
 function draw() {
     fill("blue")
-    circle(50,50,100)
-    circle(150,50,100)
-    circle(250,50,100)
-    circle(350,50,100)
+    circle(50,50,50)
+    circle(150,50,50)
+    circle(250,50,50)
+    circle(350,50,50)
 }
   // Recap 1: Repeating Circles\
 
