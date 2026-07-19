@@ -5,9 +5,9 @@ function setup() {
   }
   
 function draw() {
-  fill("skyblue")
-  circle(50,50,100)
-  circle(150,50,100)
+  fill("skyblue");
+  circle(50,50,100);
+  circle(150,50,100);
 }
   // Recap 1: Repeating Circles\
 
