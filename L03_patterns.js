@@ -14,11 +14,12 @@ function draw() {
 
 let circleDiameter = 50;
 let circleY = 50;
-for (let i = 1; i <10;i++){
+for (let i = 1; i < 11; i++ ) {
   let circol = ( i * 50 )
   if (circol > 254){
     circol = circol - circol
-    fill(circol)
+  }
+  fill(circol,0,0)
   circle(50*i, circleY*i, circleDiameter)
   // circle(50*i, circleY, circleDiameter)
   // circle(50, circleY*i, circleDiameter)
@@ -32,5 +33,4 @@ for (let i = 1; i <10;i++){
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-}
 }
