@@ -23,7 +23,7 @@ for (let i = 1; i <7;i++ ) {
   circle(50*i, circleY*i, circleDiameter)
   // circle(50*i, circleY, circleDiameter)
   // circle(50, circleY*i, circleDiameter)
-  print
+  print(width
 }
   // Recap 1: Repeating Circles\
 
