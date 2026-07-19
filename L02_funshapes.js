@@ -5,25 +5,14 @@ Task 1: Add the setup() function
 function setup() {
    //           w     h
   createCanvas(1000, 1000);
-  background("red");
+  background(90);
 }
 
 function draw() {
   fill("gold");
-  circle(80,80,100);
-}
-function draw() {
-  fill("pink");
-  ellipse(300,400,100,200);
-}
-function draw() {
-  fill("black");
-  rect(670,800,100,200);
-}
-function draw() {
-  fill("gold");
-  triangle(30,75,58,20,86,75);
+  triangle(30, 75, 58, 20, 86, 75);
   
+}
 
   // Challenge 1: An eye using ellipse() function
 
@@ -38,4 +27,3 @@ function draw() {
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
-}
