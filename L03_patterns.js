@@ -16,18 +16,19 @@ function draw() {
  let circleDiameter = 50;
  let circleY = 50;
  for (let i = 1; i <10;i++ ) {
-   let circol = ( i * 50 )
-   if (circol > 254){
-     circol = circol - circol
-   }
-   fill(circol,0,0)
+   fill(Colour);
+  Colour = Colour + 1;
+  if (Colour > 255) {
+    Colour = 0;
+  }
+  circle(50,50,50);
    circle(50*i, circleY*i, circleDiameter)
    // circle(50*i, circleY, circleDiameter)
    // circle(50, circleY*i, circleDiameter)
-//   print("i will not sling mud at my friend")
-//   print(width)
-//   print(height)
-// }
+   print("i will not sling mud at my friend")
+   print(width)
+   print(height)
+ }
   // Recap 1: Repeating Circles\
 
   // Task 1: Colour Gradient
