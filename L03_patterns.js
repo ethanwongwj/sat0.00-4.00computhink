@@ -14,4 +14,3 @@ function draw() {
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-}
