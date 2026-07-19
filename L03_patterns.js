@@ -12,7 +12,9 @@ function draw() {
     circle(350,50,50)
 }
 
-for (let i = 1; i < 11; i++ ) {}
+for (let i = 1; i < 11; i++ ) {
+  
+}
   // Recap 1: Repeating Circles\
 
   // Task 1: Colour Gradient
