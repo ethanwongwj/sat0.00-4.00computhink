@@ -42,13 +42,15 @@ function draw() {
   //   }
   let circleDiameter = 30;
   let numcircles = 5;
-  let totalwidth = numcircles * circleDiameter;
-  let startX = (width - totalwidth) / 2 + circleDiameter / 2;
-  let startY = (height - totalwidth) /2 + circleDiameter / 2;
+  let totalWidth = numcircles * circleDiameter;
+  let startX = (width - totalWidth) / 2 + circleDiameter / 2;
+  let startY = (height - totalWidth) /2 + circleDiameter / 2;
   for (let i = 0; i < 5; i++) {
-    let rowY = startY + (circleDiameter * row);
+    let rowY = startY + (circleDiameter * i);
+  }
+  for (let i = 0; i < numcircles; i++) {
     let x = startX + i * circleDiameter;
-    ellipse(x,startY, circleDiameter, circleDiameter);
+    ellipse(x,rowY, circleDiameter, circleDiameter);
   }
   // Recap 1: Repeating Circles\
 
