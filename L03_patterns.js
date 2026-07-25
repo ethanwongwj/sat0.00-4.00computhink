@@ -30,7 +30,11 @@ function setup() {
 //    print(width)
 //    print(height)
 //  }
-function
+function draw() {
+  for (let row = 0; row <5; row++) {
+    for (let col = 0; col < 5; col++) {  
+    }
+  }
   // Recap 1: Repeating Circles\
 
   // Task 1: Colour Gradient
