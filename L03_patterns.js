@@ -23,8 +23,8 @@ for ( let t=1; t<8;t++) {
      Colour = 0
    }
     circle(50*i, circleY*t, circleDiameter)
-   // circle(50*i, circleY, circleDiameter)
-   // circle(50, circleY*i, circleDiameter)
+    // circle(50*i, circleY, circleDiameter)
+    // circle(50, circleY*i, circleDiameter)
 }
    print("i will not say 67")
    print(width)
