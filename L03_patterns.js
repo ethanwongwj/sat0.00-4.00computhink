@@ -5,7 +5,8 @@ function setup() {
 
 let Colour = 0;
   
-function draw() {
+for ( let t=1; t<8;t++) {
+  function draw() {
     fill("blue")
     // circle(50,50,50)
     // circle(150,50,50)
@@ -24,6 +25,7 @@ function draw() {
    circle(50*i, circleY, circleDiameter)
    // circle(50*i, circleY, circleDiameter)
    // circle(50, circleY*i, circleDiameter)
+}
    print("i will not say 67")
    print(width)
    print(height)
