@@ -23,7 +23,7 @@ function draw() {
       colour = colour + 1
     }
   }
-   circle(50*i, circleY*i, circleDiameter)
+   circle(50*i, circleY, circleDiameter)
    // circle(50*i, circleY, circleDiameter)
    // circle(50, circleY*i, circleDiameter)
    print("i will not say 67")
