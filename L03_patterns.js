@@ -31,7 +31,7 @@ let Colour = 0;
 //    print(height)
 //  }
 for (let x = 0; x < 6 ; x++) {
-  
+  rect()
   // Recap 1: Repeating Circles\
 
   // Task 1: Colour Gradient
