@@ -32,7 +32,10 @@ function setup() {
 //  }
 function draw() {
   for (let row = 0; row <5; row++) {
-    for (let col = 0; col < 5; col++) {  
+    for (let col = 0; col < 5; col++) { 
+      if col = 0{
+        fill
+      }
     }
   }
   // Recap 1: Repeating Circles\
