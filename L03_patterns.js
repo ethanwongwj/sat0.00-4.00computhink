@@ -5,7 +5,7 @@ function setup() {
 
 let Colour = 0;
   
-for ( let t=1; t<8;t++) {
+for ( let t = 1; t <8;t++) {
    function draw() {
      fill("blue")
      // circle(50,50,50)
