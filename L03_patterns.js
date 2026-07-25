@@ -33,11 +33,11 @@ function setup() {
 function draw() {
   for (let row = 0; row <5; row++) {
     for (let col = 0; col < 5; col++) { 
-      if (col === 0) {
-        fill(0);
-      } else {
-        fill(255);
-      }
+      // if () {
+      //   fill(0);
+      // } else {
+      //   fill(255);
+      // }
       rect(col * 50, row * 50, 50, 50);
     }
   }
