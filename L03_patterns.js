@@ -19,7 +19,9 @@ function draw() {
    fill(Colour);
   Colour = Colour + 0.5;
   if (Colour > 255) {
-    Colour = 0
+    for (let t = 1; t <511; t++){
+      
+    }
   }
    circle(50*i, circleY*i, circleDiameter)
    // circle(50*i, circleY, circleDiameter)
