@@ -14,10 +14,10 @@ for ( let t=1; t<8;t++) {
      // circle(350,50,50)
 
 
-   let circleDiameter = 50;
- let circleY = 50;
- for (let i = 1; i <10;i++ ) {
-   fill(Colour);
+  let circleDiameter = 50;
+  let circleY = 50;
+  for (let i = 1; i <10;i++ ) {
+    fill(Colour);
   Colour = Colour + 0.5;
   if (Colour > 255) {
     Colour = 0
