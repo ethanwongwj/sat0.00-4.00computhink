@@ -26,7 +26,6 @@ let Colour = 0;
    // circle(50, circleY*i, circleDiameter)
 
 let count = 0
-
 for (let y = 1; y < 10 ; y++) {
   fill(count % 2 * 255)
   circle(50*y , 50*2, 50)
