@@ -30,10 +30,7 @@ function setup() {
 //    print(width)
 //    print(height)
 //  }
-count = 0
-for (let x = 0; x < 6 ; x++) {
-  fill((count % 2)* 255)
-  rect(50*x,50,50,50)
+function
   // Recap 1: Repeating Circles\
 
   // Task 1: Colour Gradient
