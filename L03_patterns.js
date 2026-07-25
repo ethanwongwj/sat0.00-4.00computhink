@@ -21,7 +21,7 @@ function draw() {
   if (Colour > 255) {
     Colour = 0
   }
-   circle(50*i, circleY*i, circleDiameter)
+   circle(50*i, circleY, circleDiameter)
    // circle(50*i, circleY, circleDiameter)
    // circle(50, circleY*i, circleDiameter)
    print("i will not say 67")
