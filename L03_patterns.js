@@ -3,7 +3,7 @@ function setup() {
     background(220);
   }
 
-let Colour = 0;
+// let Colour = 0;
   
 // function draw() {
 //     fill("blue")
