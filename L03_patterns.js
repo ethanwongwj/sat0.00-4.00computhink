@@ -44,7 +44,7 @@ function draw() {
   let numcircles = 5;
   let totalwidth = numcircles * circleDiameter;
   let startX = (width - totalwidth) / 2 + circleDiameter / 2;
-  let startY = (height - totalwidth
+  let startY = (height - totalwidth) /2 + circleDiameter / 2;
   for (let i = 0; i < numcircles; i++) {
     let x = startX + i * circleDiameter;
     ellipse(x,height / 2, circleDiameter, circleDiameter);
