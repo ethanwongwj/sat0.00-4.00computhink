@@ -31,15 +31,20 @@ function setup() {
 //    print(height)
 //  }
 function draw() {
-  for (let row = 0; row <8; row++) {
-    for (let col = 0; col < 8; col++) { 
-      if ((row + col) % 2 === 0) {
-        fill(0);
-      } else {
-        fill(255);
-      }
-      rect(col * 50, row * 50, 50, 50);
-    }
+  // for (let row = 0; row <8; row++) {
+  //   for (let col = 0; col < 8; col++) { 
+  //     if ((row + col) % 2 === 0) {
+  //       fill(0);
+  //     } else {
+  //       fill(255);
+  //     }
+  //     rect(col * 50, row * 50, 50, 50);
+  //   }
+  let circleDiameter = 30;
+  let numcircles = 5;
+  let totalwidth = numcircles * circleDiameter;
+  let startX = (width - totalwidth) / 2 + circleDiameter / 2;
+  for (let i = 0; i < numcircles; i++) {
   }
   // Recap 1: Repeating Circles\
 
