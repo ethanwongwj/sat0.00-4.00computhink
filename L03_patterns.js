@@ -30,7 +30,8 @@ let Colour = 0;
 //    print(width)
 //    print(height)
 //  }
-for (let x = 0; x < 6 ; x+= 50) {
+for (let x = 0; x < 6 ; x++) {
+  
   // Recap 1: Repeating Circles\
 
   // Task 1: Colour Gradient
