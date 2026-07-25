@@ -28,8 +28,7 @@ let Colour = 0;
 let count = 0
 for (let y = 1; y < 10 ; y++) {
   fill((count % 2) * 255)
-  circle(50*y , circleY*2, circleDiameter)
-  count++
+  circle(50*y , 50*2, 50)
 }
    print("i will not say 67")
    print(width)
