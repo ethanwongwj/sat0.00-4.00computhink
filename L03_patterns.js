@@ -22,7 +22,7 @@ for ( let t=1; t<8;t++) {
   if (Colour > 255) {
     Colour = 0
   }
-   circle(50*i, circleY*1, circleDiameter)
+   circle(50*i, circleY*t, circleDiameter)
    // circle(50*i, circleY, circleDiameter)
    // circle(50, circleY*i, circleDiameter)
 }
