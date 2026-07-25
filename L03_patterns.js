@@ -45,6 +45,7 @@ function draw() {
   let totalwidth = numcircles * circleDiameter;
   let startX = (width - totalwidth) / 2 + circleDiameter / 2;
   for (let i = 0; i < numcircles; i++) {
+    let x = startX + i
   }
   // Recap 1: Repeating Circles\
 
