@@ -24,7 +24,7 @@ function draw() {
    circle(50*i, circleY*i, circleDiameter)
    // circle(50*i, circleY, circleDiameter)
    // circle(50, circleY*i, circleDiameter)
-   print("i will not sling mud at my friend")
+   print("i will not say 67")
    print(width)
    print(height)
  }
