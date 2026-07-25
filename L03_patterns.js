@@ -32,7 +32,7 @@ function setup() {
 //  }
 function draw() {
   for (let row = 0; row <10; row++) {
-    for (let col = 0; col < 5; col++) { 
+    for (let col = 0; col < 10; col++) { 
       if ((row + col) % 2 === 0) {
         fill(0);
       } else {
