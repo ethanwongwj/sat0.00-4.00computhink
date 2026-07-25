@@ -31,6 +31,7 @@ function setup() {
 //    print(height)
 //  }
 for (let x = 0; x < 6 ; x++) {
+  
   rect(50*x,50,50,50)
   // Recap 1: Repeating Circles\
 
