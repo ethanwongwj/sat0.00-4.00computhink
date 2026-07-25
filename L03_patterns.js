@@ -45,7 +45,8 @@ function draw() {
   let totalwidth = numcircles * circleDiameter;
   let startX = (width - totalwidth) / 2 + circleDiameter / 2;
   for (let i = 0; i < numcircles; i++) {
-    let x = startX + i
+    let x = startX + i * circleDiameter;
+    ellipse(x,height / 2, circleDiameter, circleDiameter);
   }
   // Recap 1: Repeating Circles\
 
