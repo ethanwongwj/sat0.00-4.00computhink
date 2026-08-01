@@ -38,7 +38,7 @@
 //     ellipse(200,200,size)
 // }
 function mouseDragged() {
-    for(i = 0; 1 < 10; )
+    for(i = 0; 1 < 10; i ++)
     fill(random(255),random(255),random(255))
     circle(mouseX, mouseY , random(25))
 }
