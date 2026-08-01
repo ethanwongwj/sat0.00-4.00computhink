@@ -1,4 +1,4 @@
-let shapeColor = 0 ;
+let redamt = 0 ;
 function setup(){
     createCanvas(400,400);
     background(200);
