@@ -39,5 +39,5 @@
 // }
 function mouseDragged() {
     fill(random(255),random(255),random(255))
-    circle(mouseX, mouseY , random(50))
+    circle(mouseX, mouseY , random(25))
 }
