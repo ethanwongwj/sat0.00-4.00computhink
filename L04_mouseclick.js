@@ -24,7 +24,7 @@
 //     fill(random(255))
 //     ellipse(mouseX, mouseY, random(50), random(50));
 // }
-
+let prevmouseX =mouse  
 let size = 1
 function mouseMoved() {
     size++
