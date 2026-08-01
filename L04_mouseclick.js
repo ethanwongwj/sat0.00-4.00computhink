@@ -26,5 +26,5 @@
 // }
 function mouseMoved() {
     x++
-    ellipse(200,200,x)
+    ellipse(200,200,x,x)
 }
