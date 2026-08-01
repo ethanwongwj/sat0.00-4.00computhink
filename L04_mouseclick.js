@@ -1,5 +1,5 @@
 let redamt = 0 ;
-let g
+let greamt = 0 ;
 function setup(){
     createCanvas(400,400);
     background(200);
