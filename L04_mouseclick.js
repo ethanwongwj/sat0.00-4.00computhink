@@ -27,5 +27,5 @@
 function mouseMoved() {
     x = 10
     circle(200,200,x)
-    x = x + 1
+    x = x + 10
 }
