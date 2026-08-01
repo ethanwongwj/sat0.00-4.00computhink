@@ -13,4 +13,5 @@ function mousePressed() {
     redamt = random(0 , 255)
     greamt = random(0 , 255)
     bluamt = random(0 , 255)
+    noStroke()
 }
