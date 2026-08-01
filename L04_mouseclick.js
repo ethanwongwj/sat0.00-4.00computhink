@@ -1,5 +1,6 @@
 let redamt = 0 ;
 let greamt = 0 ;
+let bluamt = 0 ;
 function setup(){
     createCanvas(400,400);
     background(200);
@@ -9,5 +10,5 @@ function draw() {
     ellipse(200,200,80,80);
 }
 function mousePressed() {
-    redamt =''
+    redamt =
 }
