@@ -21,5 +21,6 @@
 //     bluamt = 255
 // }
 function mouseMoved() {
+    fill(r)
     ellipse(mouseX, mouseY, 10,10);
 }
