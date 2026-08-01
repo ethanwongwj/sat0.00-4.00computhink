@@ -10,3 +10,6 @@ function draw() {
 function mousepressed() {
     shapeColor ='red'
 }
+function mousereleased() {
+    shape
+}
