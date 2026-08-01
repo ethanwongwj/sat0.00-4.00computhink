@@ -4,9 +4,9 @@ function setup(){
     background(200);
 }
 function draw() {
-    fill(shapeColor,);
+    fill(redamt,);
     ellipse(200,200,80,80);
 }
 function mousePressed() {
-    shapeColor ='red'
+    redmt ='red'
 }
