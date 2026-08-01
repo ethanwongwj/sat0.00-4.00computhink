@@ -16,7 +16,7 @@ function mousePressed() {
     noStroke()
 }
 function mouseReleased() {
-    redamt = 0
-    greamt = 0
-    bluamt = 0
+    redamt = 255
+    greamt = 255
+    bluamt = 255
 }
