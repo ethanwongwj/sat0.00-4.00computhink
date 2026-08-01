@@ -38,5 +38,6 @@
 //     ellipse(200,200,size)
 // }
 function mouseDragged() {
+    fill(random(255))
     ellipse(mouseX, mouseY , 20,20)
 }
