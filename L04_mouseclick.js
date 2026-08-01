@@ -15,3 +15,6 @@ function mousePressed() {
     bluamt = random(0 , 255)
     noStroke()
 }
+function mouseReleased() {
+    
+}
