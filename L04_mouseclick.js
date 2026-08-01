@@ -25,6 +25,6 @@
 //     ellipse(mouseX, mouseY, random(50), random(50));
 // }
 function mouseMoved() {
-    x ++
-    circle(200,200,x)
+    x++
+    ellipse(200,200,x)
 }
