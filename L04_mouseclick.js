@@ -1,1 +1,1 @@
-let shapeColor
+let shapeColor = 'blue'
