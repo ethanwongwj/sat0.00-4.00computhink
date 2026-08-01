@@ -27,4 +27,5 @@
 function mouseMoved() {
     x = 1
     circle(200,200,x)
+    x = x + 1
 }
