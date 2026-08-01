@@ -4,7 +4,7 @@ function setup(){
     background(200);
 }
 function draw() {
-    fill(shapeColor);
+    fill(shapeColor,);
     ellipse(200,200,80,80);
 }
 function mousePressed() {
