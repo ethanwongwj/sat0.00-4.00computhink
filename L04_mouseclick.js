@@ -24,16 +24,15 @@
 //     fill(random(255))
 //     ellipse(mouseX, mouseY, random(50), random(50));
 // }
-let prevmouseX = 50  
-let size = 1
-function mouseMoved() {
-    if (prevmouseX < mouseX) {
-        size++
-        noStroke
-    } else {
-        size--
-    }
-    fill("skyblue")
-    background(200)
-    ellipse(200,200,size)
-}
+// let prevmouseX = 50  
+// let size = 1
+// function mouseMoved() {
+//     if (prevmouseX < mouseX) {
+//         size++
+//         noStroke
+//     } else {
+//         size--
+//     }
+//     fill("skyblue")
+//     background(200)
+//     ellipse(200,200,size)
