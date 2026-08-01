@@ -29,7 +29,7 @@ let size = 1
 function mouseMoved() {
     if (prevmouseX < mouseX) {
         size++
-        console.log('in')
+        
     } else {
         size--
     }
