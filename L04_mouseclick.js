@@ -1,25 +1,25 @@
-let redamt = 0 ;
-let greamt = 0 ;
-let bluamt = 0 ;
-function setup(){
-    createCanvas(400,400);
-    background(200);
-}
-function draw() {
-    fill( redamt , greamt, bluamt );
-    ellipse(200,200,80,80);
-}
-function mousePressed() {
-    redamt = random(0 , 255)
-    greamt = random(0 , 255)
-    bluamt = random(0 , 255)
-    noStroke()
-}
-function mouseReleased() {
-    redamt = 255
-    greamt = 255
-    bluamt = 255
-}
+// let redamt = 0 ;
+// let greamt = 0 ;
+// let bluamt = 0 ;
+ function setup(){
+     createCanvas(400,400);
+     background(200);
+ }
+// function draw() {
+//     fill( redamt , greamt, bluamt );
+//     ellipse(200,200,80,80);
+// }
+// function mousePressed() {
+//     redamt = random(0 , 255)
+//     greamt = random(0 , 255)
+//     bluamt = random(0 , 255)
+//     noStroke()
+// }
+// function mouseReleased() {
+//     redamt = 255
+//     greamt = 255
+//     bluamt = 255
+// }
 function mouseMoved() {
     ellipse(MouseX, MouseY, 10,10);
 }
