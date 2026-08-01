@@ -21,5 +21,5 @@ function mouseReleased() {
     bluamt = 255
 }
 function mouseMoved() {
-    ellipse(MouseX, MouseY, 10,10)
+    ellipse(MouseX, MouseY, 10,10);
 }
