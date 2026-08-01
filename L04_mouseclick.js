@@ -42,5 +42,6 @@ function mouseDragged() {
         let size = random(10,30)
         let ranmouseX = random(mouseX - 10 , mouseX + 10)
         let ranmouseY = random(mouseY - 10 , mouseY + 10)
+        fill(random())
         ellipse(ranmouseX , ranmouseY , size , size)
 }
