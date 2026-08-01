@@ -7,9 +7,9 @@ function draw() {
     fill(shapeColor);
     ellipse(200,200,80,80);
 }
-function mousepressed() {
+function mousePressed() {
     shapeColor ='red'
 }
-function mousereleased() {
+function mouseReleased() {
     shapeColor = 'blue'
 }
