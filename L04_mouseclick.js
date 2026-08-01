@@ -20,7 +20,10 @@
 //     greamt = 255
 //     bluamt = 255
 // }
+// function mouseMoved() {
+//     fill(random(255))
+//     ellipse(mouseX, mouseY, random(50), random(50));
+// }
 function mouseMoved() {
-    fill(random(255))
-    ellipse(mouseX, mouseY, random(50), random(50));
+    
 }
