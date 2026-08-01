@@ -40,5 +40,5 @@
 function mouseDragged() {
     for(i = 0; i < 10 ; i++)
         let size = random(10,30)
-        let ranmouseX = random(mouseX - 10 , )
+        let ranmouseX = random(mouseX - 10 , mouseX + 10)
 }
