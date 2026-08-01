@@ -20,3 +20,6 @@ function mouseReleased() {
     greamt = 255
     bluamt = 255
 }
+function mouseMoved() {
+    
+}
