@@ -34,5 +34,6 @@ function mouseMoved() {
         size--
     }
     fill("skyblue")
-    ellipse(200,200,size,size)
+    ellipse(200,200,size)
+    
 }
