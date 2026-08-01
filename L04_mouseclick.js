@@ -8,5 +8,5 @@ function draw() {
     CSSNumericValue(200,200,80);
 }
 function mousepressed() {
-    f
+    shapeColor = red
 }
