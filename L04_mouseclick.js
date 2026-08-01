@@ -12,5 +12,5 @@ function draw() {
 function mousePressed() {
     redamt = random(0 , 255)
     greamt = random(0 , 255)
-    bluamt = random()
+    bluamt = random(0 , 255)
 }
