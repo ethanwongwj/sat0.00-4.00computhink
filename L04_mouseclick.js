@@ -29,6 +29,7 @@ let size = 1
 function mouseMoved() {
     if (prevmouseX < mouseX) {
         size++
+        
     } else {
         size--
     }
