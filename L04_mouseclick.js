@@ -10,5 +10,5 @@ function draw() {
     ellipse(200,200,80,80);
 }
 function mousePressed() {
-    redamt =
+    redamt = random(0 , 255)
 }
