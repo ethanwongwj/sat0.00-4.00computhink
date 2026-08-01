@@ -32,5 +32,5 @@ function mouseMoved() {
     } else {
         size--
     }
-    
+    ellipse(200,200,s)
 }
