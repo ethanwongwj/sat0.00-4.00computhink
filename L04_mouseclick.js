@@ -6,7 +6,7 @@ function setup(){
     background(200);
 }
 function draw() {
-    fill(redamt,greamt,bluamt);
+    fill(redamt, greamt, bluamt);
     ellipse(200,200,80,80);
 }
 function mousePressed() {
