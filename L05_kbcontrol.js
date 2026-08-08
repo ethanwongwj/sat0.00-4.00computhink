@@ -26,6 +26,6 @@ function keyPressed() {
     }
 }
 function keyReleased() {
-    
+    createCanvas
 }
 
