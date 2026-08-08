@@ -12,4 +12,8 @@ function setup() {
 // function keyReleased() {
 //     rectSize = 50;
 // }
-function keyPressed()
+function keyPressed() {
+    for(i = 0 ; 1 < 10 ; 1++ ) {
+
+    }
+}
