@@ -13,8 +13,8 @@ function setup() {
 //     rectSize = 50;
 // }
 function keyPressed() {
-    let numcir = random(5,20)
-    for(i = 0 ; i < numcir ; i++ ) {
+    let numcircle = random(5,20)
+    for(i = 0 ; i < numcircle ; i++ ) {
         let colour = colour(random(0,255), random(0,255),random(0,255)) 
         let cirsize = random(10,50);
         let x = random(0,400);
