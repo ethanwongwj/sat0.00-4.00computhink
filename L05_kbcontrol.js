@@ -12,17 +12,17 @@ function setup() {
 // function keyReleased() {
 //     rectSize = 50;
 // }
-function keyPressed() {
-    let numcircle = random(5,20)
-    for(i = 0 ; i < numcircle ; i++ ) {
-        let colour = colour(random(0,255), random(0,255),random(0,255)) 
-        let cirsize = random(10,50);
-        let x = random(0,400);
-        let y = random(0,400);
-        fill(colour);
-        ellipse(x,y,cirsize,cirsize);
-    }
-}
-function keyReleased() {
-    createCanvas(400,400)
-}
+// function keyPressed() {
+//     let numcircle = random(5,20)
+//     for(i = 0 ; i < numcircle ; i++ ) {
+//         let colour = colour(random(0,255), random(0,255),random(0,255)) 
+//         let cirsize = random(10,50);
+//         let x = random(0,400);
+//         let y = random(0,400);
+//         fill(colour);
+//         ellipse(x,y,cirsize,cirsize);
+//     }
+// }
+// function keyReleased() {
+//     createCanvas(400,400)
+// }
