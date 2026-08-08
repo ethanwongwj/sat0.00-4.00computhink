@@ -28,6 +28,7 @@ function setup() {
 // }
 function keyPressed() {
     console.log("key:", key)
+    console.log("keycode:", keyCode)
     if (keycode === 33 ) {
         circle(200,200,50)
     }
