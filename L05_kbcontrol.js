@@ -27,6 +27,7 @@ function setup() {
 //     createCanvas(400,400)
 // }
 function keyPressed() {
+    key===console
     if (keycode === 33 ) {
         circle(200,200,50)
     }
