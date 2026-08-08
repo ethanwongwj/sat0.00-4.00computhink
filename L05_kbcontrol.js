@@ -1,39 +1,30 @@
-let rectsize = 50 ;
+let rectSize = 50;
+let canvas;
+
 function setup() {
-    createCanvas(400,400)
+    canvas = createCanvas(400, 400);
+    // make canvas focusable so keyboard events work reliably
+    canvas.elt.tabIndex = 0;
+    canvas.elt.style.outline = 'none';
+    canvas.elt.focus();
 }
-// function draw() {
-//     background(220)
-//     rect(width / 2 - rectsize / 2, height /2 - rectsize / 2, rectsize,rectsize);
-// }
-// function keyPressed() {
-//     rectsize = 100;
-// }
-// function keyReleased() {
-//     rectSize = 50;
-// }
-// function keyPressed() {
-//     let numcircle = random(5,20)
-//     for(i = 0 ; i < numcircle ; i++ ) {
-//         let colour = colour(random(0,255), random(0,255),random(0,255)) 
-//         let cirsize = random(10,50);
-//         let x = random(0,400);
-//         let y = random(0,400);
-//         fill(colour);
-//         ellipse(x,y,cirsize,cirsize);
-//     }
-// }
-// function keyReleased() {
-//     createCanvas(400,400)
-// }
+
+function draw() {
+    background(220);
+    fill(100, 150, 200);
+    rect(width / 2 - rectSize / 2, height / 2 - rectSize / 2, rectSize, rectSize);
+}
+
 function keyPressed() {
-    console.log("key:", key)
-    console.log("keycode:", keyCode)
-    if (keycode === 33 ) {
-        circle(200,200,50)
+    console.log("key:", key);
+    console.log("keycode:", keyCode);
+    if (keyCode === 33) {
+        fill(255, 0, 0);
+        circle(200, 200, 50);
     }
 
-    if (keycode === 34 ) {
-        rect(200,200,50,50)
+    if (keyCode === 34) {
+        fill(0, 255, 0);
+        rect(200, 200, 50, 50);
     }
 }
