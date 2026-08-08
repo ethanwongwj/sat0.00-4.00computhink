@@ -16,5 +16,6 @@ function keyPressed() {
     let numcir = random(5,20)
     for(i = 0 ; 1 < numcir ; 1++ ) {
         let r = random(0,255)
+        let
     }
 }
