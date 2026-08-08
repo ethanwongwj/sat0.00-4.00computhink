@@ -15,13 +15,11 @@ function setup() {
 function keyPressed() {
     let numcir = random(5,20)
     for(i = 0 ; 1 < numcir ; 1++ ) {
-        let r = random(0,255);
-        let g = random(0,255);
-        let b = random(0,255);
+        let colour = colour 
         let cirsize = random(10,50);
         let x = random(0,400);
         let y = random(0,400);
-        fill(r,g,b);
+        fill(colour);
         circle(x,y,cirsize);
     }
 }
