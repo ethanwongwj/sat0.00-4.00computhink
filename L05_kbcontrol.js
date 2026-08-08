@@ -17,5 +17,7 @@ function keyPressed() {
     for(i = 0 ; 1 < numcir ; 1++ ) {
         let r = random(0,255)
         let g = random(0,255)
+        let b = random(0,255)
+        
     }
 }
