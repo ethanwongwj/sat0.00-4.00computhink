@@ -27,7 +27,7 @@ function setup() {
 //     createCanvas(400,400)
 // }
 function keyPressed() {
-    if (key ==='c'){
+    if (key ==='c') {
         circle(200,200,50,50)
     }
 
