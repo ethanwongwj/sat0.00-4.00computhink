@@ -13,7 +13,7 @@ function setup() {
 //     rectSize = 50;
 // }
 function keyPressed() {
-    numcir = random(5,20)
+    let numcir = random(5,20)
     for(i = 0 ; 1 < numcir ; 1++ ) {
         
     }
