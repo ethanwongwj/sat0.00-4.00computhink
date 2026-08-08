@@ -27,11 +27,11 @@ function setup() {
 //     createCanvas(400,400)
 // }
 function keyPressed() {
-    if (keycode === 5 ) {
+    if (keycode === 33 ) {
         circle(200,200,50)
     }
 
-    if (keycode === 67 ) {
+    if (keycode === 34 ) {
         rect(200,200,50,50)
     }
 }
