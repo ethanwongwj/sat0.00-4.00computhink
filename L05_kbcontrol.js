@@ -30,11 +30,11 @@ function setup() {
 function keyPressed() {
     console.log("key:", key)
     console.log("keycode:", keyCode)
-    if (keycode === 33 ) {
+    if (keyCode === 33 ) {
         circle(200,200,50)
     }
 
-    if (keycode === 34 ) {
+    if (keyCode === 34 ) {
         rect(200,200,50,50)
     }
 }
