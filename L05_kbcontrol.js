@@ -22,7 +22,7 @@ function keyPressed() {
         let x = random(0,400);
         let y = random(0,400);
         fill(r,g,b);
-        circle(x,y,cirsize)
+        circle(x,y,cirsize);
     }
 }
 }
