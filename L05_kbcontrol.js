@@ -18,7 +18,8 @@ function keyPressed() {
         let r = random(0,255);
         let g = random(0,255);
         let b = random(0,255);
-        let cirsize = random()
+        let cirsize = random(10,50);
+        
     }
 }
 }
