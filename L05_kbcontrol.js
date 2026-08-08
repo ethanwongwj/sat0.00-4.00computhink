@@ -20,7 +20,7 @@ function keyPressed() {
         let x = random(0,400);
         let y = random(0,400);
         fill(colour);
-        circle(x,y,cirsize);
+        ellipse(x,y,cirsize,cirsize);
     }
 }
 function keyReleased() {
