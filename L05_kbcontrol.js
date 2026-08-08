@@ -13,7 +13,7 @@ function setup() {
 //     rectSize = 50;
 // }
 function keyPressed() {
-    numcirc = random(5,20)
+    numcir = random(5,20)
     for(i = 0 ; 1 < numcir ; 1++ ) {
         
     }
