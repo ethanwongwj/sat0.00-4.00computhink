@@ -115,12 +115,12 @@ function draw() {
     }
     if (keyIsDown(DOWN_ARROW)) {
         y -= 2;
-        y2 = y - 25
+        y2 = y - 25;
     }
     if (y2 < 1) {
         y = 25
     }
     if (y2 > 399) {
-        y = 
+        y
     }
 }
