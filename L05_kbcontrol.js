@@ -118,7 +118,8 @@ function draw() {
         y2 = y - 25;
     }
     if (y2 < 1) {
-        y = 25
+        y = 25;
+        
     }
     if (y2 > 399) {
         y
