@@ -32,11 +32,10 @@ function keyPressed() {
     console.log("keycode:", keyCode)
     if (keyCode === 67) {
         background(220)
+        fill("white")
         ellipse(200,200,100,100)
     }
-
-    if (keyCode === 16) {
-        background(220)
-        rect(200,200,100,100)
+    if  (key === "r") {
+        fill("red")
     }
 }
