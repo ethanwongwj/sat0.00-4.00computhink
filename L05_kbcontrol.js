@@ -80,12 +80,11 @@ let x = 0
 function draw() {
     background(220);
     if (keyIsDown(RIGHT_ARROW)) {
-        x += 1
+        x += 
     }
     circle(width /2 + x, height/2, 100)
     if (keyIsDown(LEFT_ARROW)) {
         x -= 1
     }
     circle(width /2 + x, height/2, 100)
-    noStr
 }
