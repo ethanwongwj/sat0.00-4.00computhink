@@ -103,7 +103,7 @@ let x2 = x + 25;
 let x3 = x + 50;
 let y = 0;
 let y1 = y;
-let y2 = 25
+let y2 = 35
 let y3 = y;
 function draw() {
     background(220);
@@ -111,11 +111,11 @@ function draw() {
 
     if (keyIsDown(DOWN_ARROW)) {
         y1 = y3 = y +=2;
-        y2 = y + 25;
+        y2 = y + 35;
     }
     if (keyIsDown(UP_ARROW)) {
         y1 = y3 = y -= 2;
-        y2 = y - 25;
+        y2 = y - 35;
     }
     if (y2 < 1) {
         y = 25;
