@@ -103,5 +103,5 @@ let x2 = x + 25;
 let x3 = x + 50;
 let y = 0;
 let y1 = y;
-let y2 = y + 50;
-let y3 = 
+let y2 = y + 25;
+let y3 = y + 50;
