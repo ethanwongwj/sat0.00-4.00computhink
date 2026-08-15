@@ -36,7 +36,7 @@ function keyPressed() {
     }
 
     if (keyCode === 83) {
-            createCanvas(400,400)
-        rect(200,200,50,50)
+        createCanvas(400,400)
+        rect(200,200,100,100)
     }
 }
