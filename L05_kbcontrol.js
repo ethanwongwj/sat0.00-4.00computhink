@@ -108,5 +108,6 @@ let y3 = y + 50;
 function draw() {
     background(220);
     triangle(x1,y1,x2,y2,x3,y3)
-    
+
+    if (keyIsDown(UP_ARROW))
 }
