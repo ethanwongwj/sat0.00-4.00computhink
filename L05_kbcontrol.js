@@ -47,7 +47,7 @@ function keyPressed() {
     if  (key === "y") {
         fill("yellow")
     }
-    if (keyCode === 67) {
+    if (keyCode === 83) {
         background(220)
         fill("white")
         rect(200,200,100,100)
