@@ -31,12 +31,10 @@ function keyPressed() {
     console.log("key:", key)
     console.logc("keycode:", keyCode)
     if (keyCode === 67) {
-        createCanvas(400,400)
         circle(200,200,100)
     }
 
     if (keyCode === 83) {
-        createCanvas(400,400)
         rect(200,200,100,100)
     }
 }
