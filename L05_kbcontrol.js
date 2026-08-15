@@ -42,12 +42,18 @@ b = 0
 // }
 function mouseMoved() {
     if (mouseX > 74 ) {
-        col = 255 , 0 , 0
+        r = 255
+        g = 0
+        b = 0
+        col = r , g , b
         fill(col)
         ellipse(200,200,100,100)
     }
     if (mouseX < 124 && mouseX > 74 ) {
-        col = 0 , 255 , 0
+        r = 0
+        g = 255
+        b = 0
+        col = r , g , b
         fill(col)
         ellipse(200,200,100,100)
     }
