@@ -44,7 +44,6 @@ function mouseMoved() {
         r = 255
         g = 0
         b = 0
-        col = r , g , b
         fill(col)
         ellipse(200,200,100,100)
     }
