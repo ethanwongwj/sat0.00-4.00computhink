@@ -29,7 +29,7 @@ function setup() {
 // }
 function keyPressed() {
     console.log("key:", key)
-    console.log("keycode:", keyCode)
+    console.logc("keycode:", keyCode)
     if (keyCode === 67) {
         circle(200,200,50)
     }
