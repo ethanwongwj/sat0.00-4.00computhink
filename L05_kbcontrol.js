@@ -111,6 +111,7 @@ function draw() {
 
     if (keyIsDown(UP_ARROW)) {
         y1 += 2
-        
+        y2 += 2
+        y3 += 2
     }
 }
