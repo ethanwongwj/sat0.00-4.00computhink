@@ -83,7 +83,7 @@ function draw() {
         x += 1
     }
     circle(width /2 + x, height/2, 100)
-    if (keyIsDown(RIGHT_ARROW)) {
+    if (keyIsDown(LEFT_ARROW)) {
         x -= 1
     }
     circle(width /2 + x, height/2, 100)
