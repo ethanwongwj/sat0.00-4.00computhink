@@ -97,13 +97,13 @@ function setup() {
 //     }
 // }
 // THE STUPID TRIANGLE!!!!!
-let x = 0;
+let x = 175;
 let x1 = x;
 let x2 = x + 25;
 let x3 = x + 50;
 let y = 0;
 let y1 = y;
-let y2 = y + 25;
+let y2 = 25
 let y3 = y;
 function draw() {
     background(220);
@@ -111,11 +111,14 @@ function draw() {
 
     if (keyIsDown(UP_ARROW)) {
         y += 2;
+        y2 = y + 25;
     }
     if (keyIsDown(DOWN_ARROW)) {
         y -= 2;
+        y2 = y - 25
     }
     if (y2 < 1) {
-        
+        y = 25
     }
+    if (y2 > 399)
 }
