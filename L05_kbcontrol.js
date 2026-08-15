@@ -107,5 +107,5 @@ let y2 = y + 25;
 let y3 = y + 50;
 function draw() {
     background(220);
-    
+    triangle()
 }
