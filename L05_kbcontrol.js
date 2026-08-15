@@ -114,7 +114,7 @@ function draw() {
         y2 = y + 25;
     }
     if (keyIsDown(DOWN_ARROW)) {
-        y1 =  -= 2;
+        y1 = y3 = y -= 2;
         y2 = y - 25;
     }
     if (y2 < 1) {
