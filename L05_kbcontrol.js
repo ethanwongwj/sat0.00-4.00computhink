@@ -100,3 +100,5 @@ function setup() {
 x = 0 
 let x1 = x
 let x2 = x + 50
+let x3 = x
+let y 
