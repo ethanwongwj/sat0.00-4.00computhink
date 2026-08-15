@@ -32,7 +32,7 @@ function keyPressed() {
     console.log("keycode:", keyCode)
     if (keyCode === 67) {
         background(220)
-        circle(200,200,100)
+        ellipse(200,200,100,100)
     }
 
     if (keyCode === 83) {
