@@ -76,7 +76,7 @@ function setup() {
 //         ellipse(200,200,100,100)
 //     }
 // }
-let x = 0;
+let x = 200;
 function draw() {
     background(220);
     circle(x, 200, 100);
