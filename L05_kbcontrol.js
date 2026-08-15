@@ -78,5 +78,8 @@ function setup() {
 // }
 let x = 0
 function draw() {
-    background(220)
+    background(220);
+    if (keyIsDown(RIGHT_ARROW)) {
+        
+    }
 }
