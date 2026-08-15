@@ -39,40 +39,40 @@ let b = 0
 //         ellipse(200,200,100,100)
 //     }
 // }
-function mouseMoved() {
-    if (mouseX < 74 ) {
-        r = 255
-        g = 0
-        b = 0
-        fill(r,g,b)
-        ellipse(200,200,100,100)
-    }
-    if (mouseX < 124 && mouseX > 74 ) {
-        r = 0
-        g = 255
-        b = 0
-        fill(r,g,b)
-        ellipse(200,200,100,100)
-    }
-    if (mouseX < 250 && mouseX > 124 ) {
-        r = 0
-        g = 0
-        b = 255
-        fill(r,g,b)
-        ellipse(200,200,100,100)
-    }
-    if (mouseX < 325 && mouseX > 250 ) {
-        r = 255
-        g = 255
-        b = 0
-        fill(r,g,b)
-        ellipse(200,200,100,100)
-    }
-    if (mouseX < 401 && mouseX > 325 ) {
-        r = 255
-        g = 0
-        b = 255
-        fill(r,g,b)
-        ellipse(200,200,100,100)
-    }
-}
+// function mouseMoved() {
+//     if (mouseX < 74 ) {
+//         r = 255
+//         g = 0
+//         b = 0
+//         fill(r,g,b)
+//         ellipse(200,200,100,100)
+//     }
+//     if (mouseX < 124 && mouseX > 74 ) {
+//         r = 0
+//         g = 255
+//         b = 0
+//         fill(r,g,b)
+//         ellipse(200,200,100,100)
+//     }
+//     if (mouseX < 250 && mouseX > 124 ) {
+//         r = 0
+//         g = 0
+//         b = 255
+//         fill(r,g,b)
+//         ellipse(200,200,100,100)
+//     }
+//     if (mouseX < 325 && mouseX > 250 ) {
+//         r = 255
+//         g = 255
+//         b = 0
+//         fill(r,g,b)
+//         ellipse(200,200,100,100)
+//     }
+//     if (mouseX < 401 && mouseX > 325 ) {
+//         r = 255
+//         g = 0
+//         b = 255
+//         fill(r,g,b)
+//         ellipse(200,200,100,100)
+//     }
+// }
