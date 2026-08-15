@@ -27,7 +27,6 @@ function setup() {
 // function keyReleased() {
 //     createCanvas(400,400)
 // }
-mouseX = mouseX
 function keyPressed() {
     console.log("key:", key)
     console.log("keycode:", keyCode)
