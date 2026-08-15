@@ -29,13 +29,14 @@ function setup() {
 // }
 function keyPressed() {
     console.log("key:", key)
-    console.logc("keycode:", keyCode)
+    console.log("keycode:", keyCode)
     if (keyCode === 67) {
-            background(220)
+        background(220)
         circle(200,200,100)
     }
 
     if (keyCode === 83) {
+        background(220)
         rect(200,200,100,100)
     }
 }
