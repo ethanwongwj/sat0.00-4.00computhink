@@ -76,7 +76,7 @@ function setup() {
 //         ellipse(200,200,100,100)
 //     }
 // }
+let x = 0
 function draw() {
-    let x = 0
     
 }
