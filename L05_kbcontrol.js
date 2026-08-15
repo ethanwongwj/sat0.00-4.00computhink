@@ -97,3 +97,6 @@ function setup() {
 //     }
 // }
 // THE STUPID TRIANGLE!!!!!
+x = 0 
+let x1 =x
+ 
