@@ -113,6 +113,7 @@ function draw() {
         y += 2
     }
     if (keyIsDown(DOWN_ARROW)) {
-        
+        y -= 2
     }
+    
 }
