@@ -32,7 +32,7 @@ function keyPressed() {
     console.logc("keycode:", keyCode)
     if (keyCode === 67) {
         createCanvas(400,400)
-        circle(200,200,50)
+        circle(200,200,100)
     }
 
     if (keyCode === 83) {
