@@ -37,6 +37,6 @@ function keyPressed() {
 
     if (keyCode === 83) {
         background(220)
-        rect(200,200,100,-100)
+        rect(200,200,100,100)
     }
 }
