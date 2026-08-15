@@ -98,5 +98,5 @@ function setup() {
 // }
 // THE STUPID TRIANGLE!!!!!
 x = 0 
-let x1 =x
- 
+let x1 = x
+let x2 = x + 50
