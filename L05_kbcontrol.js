@@ -104,7 +104,7 @@ let x3 = x + 50;
 let y = 0;
 let y1 = y;
 let y2 = y + 25;
-let y3 = y + 50;
+let y3 = y;
 function draw() {
     background(220);
     triangle(x1,y1,x2,y2,x3,y3)
