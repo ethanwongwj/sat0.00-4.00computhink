@@ -110,10 +110,12 @@ function draw() {
     triangle(x1,y1,x2,y2,x3,y3)
 
     if (keyIsDown(UP_ARROW)) {
-        y += 2
+        y += 2;
     }
     if (keyIsDown(DOWN_ARROW)) {
-        y -= 2
+        y -= 2;
     }
-    
+    if (y2 < 1) {
+        
+    }
 }
