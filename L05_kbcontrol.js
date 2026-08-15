@@ -44,4 +44,7 @@ function keyPressed() {
     if  (key === "b") {
         fill("blue")
     }
+    if  (key === "y") {
+        fill("yellow")
+    }
 }
