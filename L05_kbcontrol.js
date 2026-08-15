@@ -28,7 +28,9 @@ function setup() {
 //     createCanvas(400,400)
 // }
 col = r , g , b
-
+r = 0
+g = 0
+b = 0
 // function keyPressed() {
 //     console.log("key:", key)
 //     console.log("keycode:", keyCode)
