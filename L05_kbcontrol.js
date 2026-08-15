@@ -50,4 +50,7 @@ function mouseMoved() {
     if (mouseX < 325 && mouseX > 250 ) {
         col = 255 , 255 , 0
     }
+    if (mouseX < 400 && mouseX > 325 ) {
+        col = 255 , 0 , 255
+    }
 }
