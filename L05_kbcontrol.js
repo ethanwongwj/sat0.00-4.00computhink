@@ -38,5 +38,7 @@ function keyPressed() {
     }
 }
 function mouseMoved() {
-    mouseX
+    if (mouseX > 74 ) {
+        
+    }
 }
