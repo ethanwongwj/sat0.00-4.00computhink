@@ -39,6 +39,6 @@ function keyPressed() {
 }
 function mouseMoved() {
     if (mouseX > 74 ) {
-        
+        col = 255 , 0 , 0
     }
 }
