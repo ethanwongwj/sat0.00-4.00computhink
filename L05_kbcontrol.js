@@ -50,6 +50,8 @@ function mouseMoved() {
     }
     if (mouseX < 250 && mouseX > 124 ) {
         col = 0 , 0 , 255
+        fill(col)
+        ellipse(200,200,100,100)
     }
     if (mouseX < 325 && mouseX > 250 ) {
         col = 255 , 255 , 0
