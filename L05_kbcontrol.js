@@ -119,7 +119,7 @@ function draw() {
     }
     if (y2 < 1) {
         y = 25;
-        
+        y2 = 0;
     }
     if (y2 > 399) {
         y
