@@ -27,7 +27,8 @@ function setup() {
 // function keyReleased() {
 //     createCanvas(400,400)
 // }
-col = 0 , 0 , 0
+col = r , g , b
+
 // function keyPressed() {
 //     console.log("key:", key)
 //     console.log("keycode:", keyCode)
