@@ -37,3 +37,4 @@ function keyPressed() {
         ellipse(200,200,100,100)
     }
 }
+function mouseMoved() {}
