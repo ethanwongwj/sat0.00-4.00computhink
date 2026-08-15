@@ -77,5 +77,6 @@ let b = 0
 //     }
 // }
 function draw() {
+    let x = 0
     
 }
