@@ -76,4 +76,6 @@ let b = 0
 //         ellipse(200,200,100,100)
 //     }
 // }
-let 
+function draw() {
+    
+}
