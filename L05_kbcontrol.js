@@ -105,4 +105,6 @@ let y = 0;
 let y1 = y;
 let y2 = y + 25;
 let y3 = y + 50;
-function 
+function draw() {
+    
+}
