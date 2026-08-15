@@ -35,16 +35,5 @@ function keyPressed() {
         fill("white")
         ellipse(200,200,100,100)
     }
-    if  (key === "r") {
-        fill("red")
-    }
-    if  (key === "g") {
-        fill("green")
-    }
-    if  (key === "b") {
-        fill("blue")
-    }
-    if  (key === "y") {
-        fill("yellow")
-    }
+    
 }
