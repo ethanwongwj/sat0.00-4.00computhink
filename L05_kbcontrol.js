@@ -40,7 +40,7 @@ let b = 0
 //     }
 // }
 function mouseMoved() {
-    if (mouseX > 74 ) {
+    if (mouseX < 74 ) {
         r = 255
         g = 0
         b = 0
