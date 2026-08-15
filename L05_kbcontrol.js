@@ -28,15 +28,15 @@ function setup() {
 //     createCanvas(400,400)
 // }
 col = 0 , 0 , 0
-function keyPressed() {
-    console.log("key:", key)
-    console.log("keycode:", keyCode)
-    if (keyCode === 67) {
-        background(220)
-        fill(col)
-        ellipse(200,200,100,100)
-    }
-}
+// function keyPressed() {
+//     console.log("key:", key)
+//     console.log("keycode:", keyCode)
+//     if (keyCode === 67) {
+//         background(220)
+//         fill(col)
+//         ellipse(200,200,100,100)
+//     }
+// }
 function mouseMoved() {
     if (mouseX > 74 ) {
         col = 255 , 0 , 0
