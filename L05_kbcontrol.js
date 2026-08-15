@@ -76,23 +76,23 @@ function setup() {
 //         ellipse(200,200,100,100)
 //     }
 // }
-let x = 200;
-function draw() {
-    background(220);
-    circle(x, 200, 100);
+// let x = 200;
+// function draw() {
+//     background(220);
+//     circle(x, 200, 100);
 
-    if (keyIsDown(RIGHT_ARROW)) {
-        x += 2;
-    }
-    if (keyIsDown(LEFT_ARROW)) {
-        x -= 2;
-    }
+//     if (keyIsDown(RIGHT_ARROW)) {
+//         x += 2;
+//     }
+//     if (keyIsDown(LEFT_ARROW)) {
+//         x -= 2;
+//     }
 
-    //circle(width /2 + x, height/2, 100)
-    if (x < 50) {
-        x = 50;
-    }
-    if (x > width - 50) {
-        x = width - 50;
-    }
-}
+//     //circle(width /2 + x, height/2, 100)
+//     if (x < 50) {
+//         x = 50;
+//     }
+//     if (x > width - 50) {
+//         x = width - 50;
+//     }
+// }
