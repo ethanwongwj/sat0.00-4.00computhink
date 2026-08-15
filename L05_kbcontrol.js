@@ -87,4 +87,5 @@ function draw() {
         x -= 2
     }
     circle(width /2 + x, height/2, 100)
+    if (x < 25)
 }
