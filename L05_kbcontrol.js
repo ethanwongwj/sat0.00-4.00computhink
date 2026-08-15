@@ -82,4 +82,5 @@ function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
         x += 1
     }
+    
 }
