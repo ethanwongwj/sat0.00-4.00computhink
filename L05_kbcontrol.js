@@ -79,7 +79,7 @@ function setup() {
 let x = 0;
 function draw() {
     background(220);
-    circle(width /2 + x, height/2, 100);
+    circle(x, height/2, 100);
 
     if (keyIsDown(RIGHT_ARROW)) {
         x += 2;
