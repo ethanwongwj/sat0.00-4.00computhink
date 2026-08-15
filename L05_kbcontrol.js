@@ -38,4 +38,10 @@ function keyPressed() {
     if  (key === "r") {
         fill("red")
     }
+    if  (key === "g") {
+        fill("green")
+    }
+    if  (key === "b") {
+        fill("blue")
+    }
 }
