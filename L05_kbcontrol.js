@@ -78,5 +78,5 @@ function setup() {
 // }
 let x = 0
 function draw() {
-    
+    background(220)
 }
