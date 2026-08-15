@@ -47,21 +47,4 @@ function keyPressed() {
     if  (key === "y") {
         fill("yellow")
     }
-    if (keyCode === 83) {
-        background(220)
-        fill("white")
-        rect(200,200,100,100)
-    }
-    if  (key === "r") {
-        fill("red")
-    }
-    if  (key === "g") {
-        fill("green")
-    }
-    if  (key === "b") {
-        fill("blue")
-    }
-    if  (key === "y") {
-        fill("yellow")
-    }
 }
