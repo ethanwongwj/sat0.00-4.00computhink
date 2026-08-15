@@ -97,8 +97,9 @@ function setup() {
 //     }
 // }
 // THE STUPID TRIANGLE!!!!!
-x = 0 
+let x = 0 
 let x1 = x
 let x2 = x + 50
 let x3 = x
 let y = 0
+let y1 = 
