@@ -31,6 +31,7 @@ function keyPressed() {
     console.log("key:", key)
     console.logc("keycode:", keyCode)
     if (keyCode === 67) {
+            background(220)
         circle(200,200,100)
     }
 
