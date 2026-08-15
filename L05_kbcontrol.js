@@ -35,7 +35,7 @@ function keyPressed() {
         ellipse(200,200,100,100)
     }
 
-    if (keyCode === 83) {
+    if (keyCode === 16) {
         background(220)
         rect(200,200,100,100)
     }
