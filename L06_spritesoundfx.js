@@ -47,4 +47,5 @@ function setup() {
 
 function draw() {
     background('skyblue')
+    image(staticImage)
 }
