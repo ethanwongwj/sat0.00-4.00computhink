@@ -5,5 +5,5 @@ function setup() {
 let Xpos = 150
 let Ypos = 150
 function draw() {
-    rect
+    rect(50,50,Xpos,Ypos);
 }
