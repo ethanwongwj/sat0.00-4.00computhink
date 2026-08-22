@@ -101,7 +101,8 @@ let colour = 0
 if(mouseX < 100)
     colour = red;
 if(mouseX < 200 && mouseX > 99)
-    colour = green
+    colour = green;
+if(mouseX < 300 )
 let x = 175;
 let x1 = x;
 let x2 = x + 25;
