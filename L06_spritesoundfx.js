@@ -9,9 +9,10 @@ function draw() {
     (noStroke)
 }
 function keypressed() {
-    if(key === "UP_ARROW")
+    if(key === "UP_ARROW" || key === "W")
         Ypos = Ypos + 3;
-    if(key === "DOWN_ARROW")
+    if(key === "DOWN_ARROW" || key === "S")
         Ypos = Ypos - 3;
-    i
+    if(key === "LEFT_ARROW" || key === "A")
+        
 }
