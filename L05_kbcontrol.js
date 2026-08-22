@@ -97,7 +97,8 @@ function setup() {
 //     }
 // }
 // THE STUPID TRIANGLE!!!!!
-
+colour = 0
+if(mouseX < )
 let x = 175;
 let x1 = x;
 let x2 = x + 25;
