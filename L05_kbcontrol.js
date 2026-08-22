@@ -107,6 +107,7 @@ let y2 = 35
 let y3 = y;
 function draw() {
     background(220);
+    Fi
     triangle(x1,y1,x2,y2,x3,y3);
 
     if (keyIsDown(DOWN_ARROW)) {
