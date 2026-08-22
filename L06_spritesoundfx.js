@@ -10,7 +10,8 @@ function draw() {
 }
 function keypressed() {
     if(key === "UP_ARROW")
-        Ypos = Ypos + 3
+        Ypos = Ypos + 3;
     if(key === "DOWN_ARROW")
-        Ypos = 
+        Ypos = Ypos - 3;
+    i
 }
