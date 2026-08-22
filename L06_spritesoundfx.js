@@ -9,8 +9,8 @@ function draw() {
     background(220);
     
     fill(col);
-    
     noStroke();
+    
     if(keyIsDown(UP_ARROW)) {
        yPos -= 3;
     }
