@@ -33,4 +33,4 @@
 //     rect( xPos , yPos , 50 , 50 );
 // }
 
-let soundEffect, bgusic, statisImage
+let soundEffect, bgMusic, statisImage
