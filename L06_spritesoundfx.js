@@ -52,7 +52,10 @@ function draw() {
     if(KeyIsDown(UP_ARROW)){
         y += speed
     }
-    if(KeyIsDown(UP_ARROW)){
+    if(KeyIsDown(DOWN_ARROW)){
+        y -= speed
+    }
+        if(KeyIsDown(UP_ARROW)){
         y += speed
     }
 }
