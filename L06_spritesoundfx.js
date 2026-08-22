@@ -19,8 +19,9 @@ function draw() {
         yPos += 3;
     if(keyIsDown(LEFT_ARROW))
         xPos -= 3;
-    if(keyIsDown(RIGHT_ARROW))
+    if(keyIsDown(RIGHT_ARROW)){
         xPos + 3;
+    }
 
     rect( xPos , yPos , 50 , 50 );
 }
