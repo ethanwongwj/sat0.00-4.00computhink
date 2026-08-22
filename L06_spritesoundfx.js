@@ -14,10 +14,13 @@ function draw() {
 function keyPressed() {
     if(keyIsDown(UP_ARROW))
         Ypos = Ypos - 3;
+        background(220);
     if(keyIsDown(DOWN_ARROW))
         Ypos = Ypos + 3;
+        background(220);
     if(keyIsDown(LEFT_ARROW))
         Xpos = Xpos - 3;
+    
     if(keyIsDown(RIGHT_ARROW))
         Xpos = Xpos + 3;
 }
