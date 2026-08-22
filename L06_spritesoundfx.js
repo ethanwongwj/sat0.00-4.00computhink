@@ -11,13 +11,13 @@ function draw() {
     (noStroke)
 }
 function keypressed() {
-    if(key === "UP_ARROW")
+    if(key === (UP_ARROW))
         Ypos = Ypos - 3;
-    if(key === "DOWN_ARROW")
+    if(key === (DOWN_ARROW))
         Ypos = Ypos + 3;
-    if(key === "LEFT_ARROW")
+    if(key === (LEFT_ARROW))
         Xpos = Xpos - 3;
-    if(key === "RIGHT_ARROW")
+    if(key === (RIGHT_ARROW))
         Xpos = Xpos - 3;
     if(key === "SPACE_BAR" && (col) === 200)
         col = 50;
