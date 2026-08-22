@@ -104,7 +104,7 @@ if(mouseX < 200 && mouseX > 99)
     colour = green;
 if(mouseX < 300 && mouseX > 299)
     colour = blue;
-if()
+if(mouseX < 401 )
 let x = 175;
 let x1 = x;
 let x2 = x + 25;
