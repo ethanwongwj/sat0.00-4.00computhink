@@ -7,7 +7,7 @@ let yPos = 175
 let col = 200
 function draw() {
     fill(col);
-    rect( Xpos , Ypos , 50 , 50 );
+    rect( xPos , Ypos , 50 , 50 );
     noStroke();
     if(keyIsDown(UP_ARROW))
         Ypos = Ypos - 3;
@@ -16,9 +16,9 @@ function draw() {
         Ypos = Ypos + 3;
         background(220);
     if(keyIsDown(LEFT_ARROW))
-        Xpos = Xpos - 3;
+        xPos = Xpos - 3;
         background(220);
     if(keyIsDown(RIGHT_ARROW))
-        Xpos = Xpos + 3;
+        xPos = Xpos + 3;
         background(220);
 }
