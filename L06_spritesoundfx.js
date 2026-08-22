@@ -9,7 +9,7 @@ function draw() {
     background(220);
     
     fill(col);
-    rect( xPos , yPos , 50 , 50 );
+    
     noStroke();
     if(keyIsDown(UP_ARROW)) {
        yPos -= 3;
@@ -24,4 +24,6 @@ function draw() {
     if(keyIsDown(RIGHT_ARROW))
         xPos + 3;
         background(220);
+
+    rect( xPos , yPos , 50 , 50 );
 }
