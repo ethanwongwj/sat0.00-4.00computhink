@@ -23,4 +23,5 @@ function keyPressed() {
         background(220);
     if(keyIsDown(RIGHT_ARROW))
         Xpos = Xpos + 3;
+        background(220);
 }
