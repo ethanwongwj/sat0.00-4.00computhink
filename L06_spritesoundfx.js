@@ -68,7 +68,7 @@ function draw() {
 }
 
 function keyPressed() {
-    if (keycode === 32) {
+    if (keyCode === 32) {
         soundEffect.play();
     }
 }
