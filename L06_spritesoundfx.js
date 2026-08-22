@@ -9,9 +9,6 @@ function draw() {
     fill(col);
     rect( Xpos , Ypos , 50 , 50 );
     noStroke();
-}
-
-function keyPressed() {
     if(keyIsDown(UP_ARROW))
         Ypos = Ypos - 3;
         background(220);
