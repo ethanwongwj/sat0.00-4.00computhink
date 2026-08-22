@@ -8,5 +8,6 @@ function draw() {
     rect( Xpos , Ypos , 50 , 50 );
 }
 function keypressed() {
-    
+    if(key === "UP_ARROW")
+        
 }
