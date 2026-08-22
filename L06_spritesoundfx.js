@@ -9,5 +9,5 @@ function draw() {
 }
 function keypressed() {
     if(key === "UP_ARROW")
-        
+        Xpos = Xpos + 1
 }
