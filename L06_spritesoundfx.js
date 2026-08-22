@@ -61,7 +61,8 @@ function draw() {
     if(KeyIsDown(LEFT_ARROW)){
         x -= speed
     }
-    x = constrain(x,0,)
+    x = constrain(x,0,width - 100);
+    
 }
 
 function keyPressed() {
