@@ -18,7 +18,7 @@ function keypressed() {
     if(keyIsDown(LEFT_ARROW))
         Xpos = Xpos - 3;
     if(keyIsDown(RIGHT_ARROW))
-        Xpos = Xpos - 3;
+        Xpos = Xpos + 3;
     if(keyIsDown(SPACE_BAR) && (col) === 200)
         col = 50;
     if(keyIsDown(SPACE_BAR) && (col) === 50)
