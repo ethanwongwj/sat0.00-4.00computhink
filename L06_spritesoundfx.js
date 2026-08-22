@@ -58,6 +58,9 @@ function draw() {
     if(KeyIsDown(RIGHT_ARROW)){
         x += speed
     }
+    if(KeyIsDown(UP_ARROW)){
+        y += speed
+    }
 }
 
 function keyPressed() {
