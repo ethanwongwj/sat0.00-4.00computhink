@@ -6,14 +6,15 @@ let xPos = 175
 let yPos = 175
 let col = 200
 function draw() {
+    background(220);
+    
     fill(col);
     rect( xPos , yPos , 50 , 50 );
     noStroke();
     if(keyIsDown(UP_ARROW)) {
-        
+       Pos -= 3;
     }
-        yPos -= 3;
-        background(220);
+        
     if(keyIsDown(DOWN_ARROW))
         yPos += 3;
         background(220);
