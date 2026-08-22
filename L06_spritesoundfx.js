@@ -7,13 +7,13 @@ let yPos = 175
 let col = 200
 function draw() {
     fill(col);
-    rect( xPos , Ypos , 50 , 50 );
+    rect( xPos , yPos , 50 , 50 );
     noStroke();
     if(keyIsDown(UP_ARROW))
-        Ypos = Ypos - 3;
+        yPos = yPos - 3;
         background(220);
     if(keyIsDown(DOWN_ARROW))
-        Ypos = Ypos + 3;
+        yPos = yPos + 3;
         background(220);
     if(keyIsDown(LEFT_ARROW))
         xPos = Xpos - 3;
