@@ -19,6 +19,6 @@ function draw() {
         xPos -= 3;
         background(220);
     if(keyIsDown(RIGHT_ARROW))
-        xPos = Xpos + 3;
+        xPos += 3;
         background(220);
 }
