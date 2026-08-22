@@ -34,3 +34,4 @@
 // }
 
 let soundEffect, bgMusic, statisImage
+function preload()
