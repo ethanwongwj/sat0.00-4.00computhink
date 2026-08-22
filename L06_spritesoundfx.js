@@ -35,5 +35,5 @@
 
 let soundEffect, bgMusic, statisImage
 function preload() {
-    soundEffect = loadSound()
+    soundEffect = loadSound('assets/pop.mp3')
 }
