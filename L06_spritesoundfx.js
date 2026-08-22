@@ -4,6 +4,7 @@ function setup() {
 }
 let Xpos = 175
 let Ypos = 175
+let col = 200
 function draw() {
     fill(col);
     rect( Xpos , Ypos , 50 , 50 );
