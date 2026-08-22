@@ -2,7 +2,7 @@ function setup() {
     createCanvas(400,400);
     background(220);
 }
-let Xpos = 175
+let yPos = 175
 let Ypos = 175
 let col = 200
 function draw() {
