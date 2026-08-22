@@ -25,7 +25,8 @@ function draw() {
         xPos += 3;
     }
 
-    xPos = constrain(xPos, )
+    xPos = constrain(xPos, 50, 350);
+    yPos
 
     rect( xPos , yPos , 50 , 50 );
 }
