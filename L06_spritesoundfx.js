@@ -34,4 +34,6 @@
 // }
 
 let soundEffect, bgMusic, statisImage
-function preload()
+function preload() {
+    soundEffect()
+}
