@@ -25,5 +25,7 @@ function draw() {
         xPos += 3;
     }
 
+    xPos
+
     rect( xPos , yPos , 50 , 50 );
 }
