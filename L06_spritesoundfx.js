@@ -14,5 +14,7 @@ function keypressed() {
     if(key === "DOWN_ARROW" || key === "S")
         Ypos = Ypos + 3;
     if(key === "LEFT_ARROW" || key === "A")
-        Xpos = 
+        Xpos = Xpos - 3;
+    if(key === "RIGHT_ARROW" || key === "D")
+        
 }
