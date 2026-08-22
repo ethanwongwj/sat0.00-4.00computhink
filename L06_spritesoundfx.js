@@ -7,3 +7,6 @@ let Ypos = 150
 function draw() {
     rect( Xpos , Ypos , 50 , 50 );
 }
+function keypressed() {
+    
+}
