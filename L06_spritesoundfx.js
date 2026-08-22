@@ -8,9 +8,9 @@ let col = 200
 function draw() {
     fill(col);
     rect( Xpos , Ypos , 50 , 50 );
-    noStroke());
+    noStroke();
 }
-function keypressed() {
+function keyPressed() {
     if(keyIsDown(UP_ARROW))
         Ypos = Ypos - 3;
     if(keyIsDown(DOWN_ARROW))
