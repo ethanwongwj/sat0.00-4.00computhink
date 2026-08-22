@@ -50,10 +50,10 @@ function setup() {
 
 function draw() {
     background('skyblue');
-    if(KeyIsDown(UP_ARROW)){
+    if(keyIsDown(UP_ARROW)){
         y += speed;
     }
-    if(KeyIsDown(DOWN_ARROW)){
+    if(keyIsDown(DOWN_ARROW)){
         y -= speed;
     }
     if(KeyIsDown(RIGHT_ARROW)){
