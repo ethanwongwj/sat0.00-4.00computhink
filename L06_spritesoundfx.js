@@ -15,9 +15,9 @@ function keypressed() {
         Ypos = Ypos - 3;
     if(key === (DOWN_ARROW))
         Ypos = Ypos + 3;
-    if(key === (LEFT_ARROW))
+    if(keyIsDown === (LEFT_ARROW))
         Xpos = Xpos - 3;
-    if(key === (RIGHT_ARROW))
+    if(keyIsDown === (RIGHT_ARROW))
         Xpos = Xpos - 3;
     if(keyIsDown === "SPACE_BAR" && (col) === 200)
         col = 50;
