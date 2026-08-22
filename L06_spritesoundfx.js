@@ -11,9 +11,9 @@ function draw() {
     (noStroke)
 }
 function keypressed() {
-    if(key === (UP_ARROW))
+    if(keyIsDown === (UP_ARROW))
         Ypos = Ypos - 3;
-    if(key === (DOWN_ARROW))
+    if(keyIsDown === (DOWN_ARROW))
         Ypos = Ypos + 3;
     if(keyIsDown === (LEFT_ARROW))
         Xpos = Xpos - 3;
