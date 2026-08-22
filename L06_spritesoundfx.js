@@ -6,9 +6,9 @@ let Xpos = 175
 let Ypos = 175
 let col = 200
 function draw() {
-    fill(col)
+    fill(col);
     rect( Xpos , Ypos , 50 , 50 );
-    (noStroke)
+    noStroke());
 }
 function keypressed() {
     if(keyIsDown(UP_ARROW))
