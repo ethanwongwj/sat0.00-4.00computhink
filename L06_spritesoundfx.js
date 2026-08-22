@@ -12,7 +12,7 @@ function draw() {
     rect( xPos , yPos , 50 , 50 );
     noStroke();
     if(keyIsDown(UP_ARROW)) {
-       Pos -= 3;
+       yPos -= 3;
     }
         
     if(keyIsDown(DOWN_ARROW))
