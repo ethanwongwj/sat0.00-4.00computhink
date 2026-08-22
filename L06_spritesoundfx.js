@@ -62,7 +62,7 @@ function draw() {
         x -= speed
     }
     x = constrain(x,0,width - 100);
-    
+    y = constrain(y,0)
 }
 
 function keyPressed() {
