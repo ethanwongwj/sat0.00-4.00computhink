@@ -13,10 +13,10 @@ function draw() {
         yPos -= 3;
         background(220);
     if(keyIsDown(DOWN_ARROW))
-        yPos = yPos + 3;
+        yPos += 3;
         background(220);
     if(keyIsDown(LEFT_ARROW))
-        xPos = Xpos - 3;
+        xPos -= 3;
         background(220);
     if(keyIsDown(RIGHT_ARROW))
         xPos = Xpos + 3;
