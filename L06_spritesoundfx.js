@@ -62,7 +62,7 @@ function draw() {
     if(keyIsDown(LEFT_ARROW)){
         x -= speed;
     }
-    if(x === 0 || x === width - 100 || y === 0) {
+    if(x === 0 || x === width - 100 || y === 0 || y === height - 100) {
         background("red");
         soundEffect.play();
     }
