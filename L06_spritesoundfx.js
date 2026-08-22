@@ -21,5 +21,5 @@ function keypressed() {
         Xpos = Xpos - 3;
     if(key === "SPACE_BAR" && col === 200)
         col = 50
-
+    if(key === "SPACE_BAR" && col === 50)
 }
