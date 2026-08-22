@@ -3,5 +3,5 @@ function setup() {
     background(220);
 }
 function keypressed() {
-    
+    rect()
 }
