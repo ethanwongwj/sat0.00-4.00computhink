@@ -98,9 +98,10 @@ function setup() {
 // }
 // THE STUPID TRIANGLE!!!!!
 let colour = 0
-if(mouseX < 75)
+if(mouseX < 100)
     colour = red;
 if(mouseX < 125 && mouseX > 74)
+    colour = green
 let x = 175;
 let x1 = x;
 let x2 = x + 25;
