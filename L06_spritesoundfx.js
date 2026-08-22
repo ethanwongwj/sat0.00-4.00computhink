@@ -36,5 +36,6 @@
 let soundEffect, bgMusic, statisImage
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
-    bgMusic = loadSound('assets/bossaNova.mp3')
+    bgMusic = loadSound('assets/bossaNova.mp3');
+    staticImage = loadImage
 }
