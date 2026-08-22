@@ -33,8 +33,9 @@
 //     rect( xPos , yPos , 50 , 50 );
 // }
 
-let soundEffect, bgMusic, statisImage
-let speed = 5
+let soundEffect, bgMusic, statisImage;
+let speed = 5;
+let x = 
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
