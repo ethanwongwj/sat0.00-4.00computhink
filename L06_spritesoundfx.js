@@ -4,4 +4,6 @@ function setup() {
 }
 let Xpos = 150
 let Ypos = 150
-fun
+function draw() {
+    rect
+}
