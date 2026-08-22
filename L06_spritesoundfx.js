@@ -16,5 +16,5 @@ function keypressed() {
     if(key === "LEFT_ARROW" || key === "A")
         Xpos = Xpos - 3;
     if(key === "RIGHT_ARROW" || key === "D")
-        
+        Xpos = Xpos - 3
 }
