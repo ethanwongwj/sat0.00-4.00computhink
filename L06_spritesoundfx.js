@@ -10,20 +10,17 @@ function draw() {
     
     fill(col);
     noStroke();
-    
+
     if(keyIsDown(UP_ARROW)) {
        yPos -= 3;
     }
         
     if(keyIsDown(DOWN_ARROW))
         yPos += 3;
-        background(220);
     if(keyIsDown(LEFT_ARROW))
         xPos -= 3;
-        background(220);
     if(keyIsDown(RIGHT_ARROW))
         xPos + 3;
-        background(220);
 
     rect( xPos , yPos , 50 , 50 );
 }
