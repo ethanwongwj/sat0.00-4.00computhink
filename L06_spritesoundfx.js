@@ -1,10 +1,9 @@
+
 function setup() {
     createCanvas(400,400);
     background(220);
 }
-let xPos = 175
-let yPos = 175
-let col = 200
+
 function draw() {
     background(220);
     
