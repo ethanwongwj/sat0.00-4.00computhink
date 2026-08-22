@@ -100,7 +100,7 @@ function setup() {
 let colour = 0
 if(mouseX < 100)
     colour = red;
-if(mouseX < 125 && mouseX > 74)
+if(mouseX < 200 && mouseX > 99)
     colour = green
 let x = 175;
 let x1 = x;
