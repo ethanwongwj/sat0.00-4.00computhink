@@ -15,8 +15,9 @@ function draw() {
        yPos -= 3;
     }
         
-    if(keyIsDown(DOWN_ARROW))
+    if(keyIsDown(DOWN_ARROW)){
         yPos += 3;
+    }
     if(keyIsDown(LEFT_ARROW)) {
         xPos -= 3;
     }
