@@ -22,7 +22,7 @@ function draw() {
         xPos -= 3;
     }
     if(keyIsDown(RIGHT_ARROW)){
-        xPos + 3;
+        xPos += 3;
     }
 
     rect( xPos , yPos , 50 , 50 );
