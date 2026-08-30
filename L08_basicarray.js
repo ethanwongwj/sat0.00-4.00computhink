@@ -7,6 +7,6 @@ function setup() {
 function draw() {
     background(220);
     textSize(64);
-    text("HELLO EVERYBODY" , 80 , te)
-    text("second line" , 80 , height/2 + 88)
+    text("HELLO EVERYBODY" , 80 , textY)
+    text("second line" , 80 , textY+ 18)
 }
