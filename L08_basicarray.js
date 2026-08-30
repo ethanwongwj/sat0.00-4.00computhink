@@ -1,6 +1,6 @@
 let textY = 600;
 function setup() {
-    createCanvas(800,600);
+    createCanvas(400,600);
     background(220);
 }
 
@@ -9,5 +9,5 @@ function draw() {
     textSize(18);
     text("HELLO EVERYBODY" , 80 , textY)
     text("second line" , 80 , textY + 18)
-    textY -= 1
+    textY -= 0.67
 }
