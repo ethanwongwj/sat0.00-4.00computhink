@@ -1,5 +1,5 @@
 let textY = 0;
-let storytext = [];
+let storyText = [];
 let lineY = 0;
 function setup() {
     createCanvas(400,600);
