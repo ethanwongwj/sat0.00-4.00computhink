@@ -9,6 +9,6 @@ function draw() {
     background(220);
     textSize(18);
     storyText[0] = "A LOOOOOOOOOOOOOONG TIME AGO.........."
-    storytext[1]
+    storytext[1] = "MY GRANDMA "
     textY -= 0.67;
 }
