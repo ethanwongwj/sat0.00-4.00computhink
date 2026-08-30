@@ -8,6 +8,6 @@ function setup() {
 function draw() {
     background(220);
     textSize(18);
-    storyText[0]
+    storyText[0] = "A L"
     textY -= 0.67;
 }
