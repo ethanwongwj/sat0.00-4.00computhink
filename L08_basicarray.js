@@ -1,4 +1,4 @@
-let textY = 600;
+let textY = height;
 function setup() {
     createCanvas(400,600);
     background(220);
