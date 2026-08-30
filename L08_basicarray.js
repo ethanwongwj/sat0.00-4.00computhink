@@ -7,5 +7,5 @@ function draw() {
     background(220);
     textSize(64);
     text("HELLO EVERYBODY" , 0 , height/2)
-    text("second line" , )
+    text("second line" , 0 , height/2 + 88)
 }
