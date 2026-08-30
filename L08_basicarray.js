@@ -1,5 +1,6 @@
 let textY = height;
 storytext = []
+let
 function setup() {
     createCanvas(400,600);
     background(220);
