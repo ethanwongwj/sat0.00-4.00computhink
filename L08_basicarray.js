@@ -8,8 +8,6 @@ function setup() {
 function draw() {
     background(220);
     textSize(18);
-    text("" , 80 , textY);
-    text("" , 80 , textY + 18);
-    text("" , 80 , textY + 36)
+    
     textY -= 0.67;
 }
