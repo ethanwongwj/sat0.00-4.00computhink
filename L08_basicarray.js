@@ -13,7 +13,7 @@ function draw() {
     storytext[1] = "MY GRANDMA TOLD ME A STORY"
     storyText[2] = "AND THE END"
     for(let count = 0 ; count < storyText.length; count++ ) {
-        
+        text(storyText(count))
     }
     textY -= 0.67;
 }
