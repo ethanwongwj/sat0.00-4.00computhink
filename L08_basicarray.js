@@ -8,7 +8,7 @@ function draw() {
     background(220);
     textSize(18);
     text("HELLO EVERYBODY" , 80 , textY);
-    text("second line" , 80 , textY + 18);
-    text("ETHAN joined Sunday class today" , 80 , textY + 36)
+    text("" , 80 , textY + 18);
+    text("" , 80 , textY + 36)
     textY -= 0.67;
 }
