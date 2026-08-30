@@ -13,7 +13,7 @@ function draw() {
     storyText[2] = "AND THE END"
     for(let count = 0 ; count < storyText.length; count++ ) {
         text(storyText(count), 100, ypos + liney);
-        lineY
+        lineY = lineY + 20;
     }
     textY -= 0.67;
 }
