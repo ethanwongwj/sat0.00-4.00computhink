@@ -9,7 +9,7 @@ function setup() {
     storyText[2] = "AND THE END";
     
 }
-textY = height
+textY = height;
 
 function draw() {
     background(220);
