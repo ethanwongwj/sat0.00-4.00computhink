@@ -20,6 +20,9 @@ function draw() {
         lineY = lineY + 20;
     }
     textY -= 0.67;
+    if (textY < 0) { 
+        
+    }
 }
 
 
