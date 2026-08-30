@@ -16,7 +16,7 @@ function draw() {
     textAlign(CENTER , CENTER)
     lineY = 0
     for(let count = 0 ; count < storyText.length; count++ ) {
-        text(storyText[count], 50, textY+ lineY);
+        text(storyText[count], width/2, textY+ lineY);
         lineY = lineY + 20;
     }
     textY -= 0.67;
