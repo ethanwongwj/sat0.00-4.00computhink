@@ -12,6 +12,6 @@ function draw() {
     storyText[0] = "A LOOOOOOOOOOOOOONG TIME AGO.........."
     storytext[1] = "MY GRANDMA TOLD ME A STORY"
     storyText[2] = "AND THE END"
-    text(storytext[count], )
+    for(let count = 0 ; count < storyText.length)
     textY -= 0.67;
 }
