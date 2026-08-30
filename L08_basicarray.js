@@ -15,7 +15,7 @@ function draw() {
     textSize(18);
     lineY = 0
     for(let count = 0 ; count < storyText.length; count++ ) {
-        text(storyText[count], 60, textY+ lineY);
+        text(storyText[count], 50, textY+ lineY);
         lineY = lineY + 20;
     }
     textY -= 0.67;
