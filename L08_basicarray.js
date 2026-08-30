@@ -7,9 +7,8 @@ function setup() {
     storyText[0] = "A LOOOOOOOOOOOOOONG TIME AGO..........";
     storytext[1] = "MY GRANDMA TOLD ME A STORY";
     storyText[2] = "AND THE END";
-    
+    textY = height;   
 }
-textY = height;
 
 function draw() {
     background(220);
