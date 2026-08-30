@@ -9,5 +9,6 @@ function draw() {
     textSize(18);
     text("HELLO EVERYBODY" , 80 , textY);
     text("second line" , 80 , textY + 18);
+    text()
     textY -= 0.67;
 }
