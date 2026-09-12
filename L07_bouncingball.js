@@ -6,6 +6,7 @@ function setup() {
     createCanvas(400,400);
     background(220);
 }
+
 function draw() {
     if(ballX = 0) {
         cmxnum = 5;
