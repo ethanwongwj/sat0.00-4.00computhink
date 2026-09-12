@@ -24,7 +24,7 @@ function draw() {
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
     ballX = ballX + cmxnum;
-    ballY = ballY + cmynum;
+    ballY =;
     console.log(ballX, ballY);
     console.log(cmxnum, cmynum);
     circle(ballX,ballY,50);
