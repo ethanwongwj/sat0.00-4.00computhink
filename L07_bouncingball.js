@@ -1,6 +1,5 @@
 let ballX = 200;
 let ballY = 200;
-let colrgba = (0,0,0,1);
 let cmxnum = 5;
 let cmynum = 5; 
 function setup() {
