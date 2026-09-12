@@ -12,7 +12,7 @@ function draw() {
     fill(colrgba);
     if(ballX = 0) {
         cmxnum = 5;
-        colrgba = (random(0,255),random(0,255),random(0,255),random(0.3,1.0));
+        fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
     if(ballx = 350) {
         cmxnum = -5;
