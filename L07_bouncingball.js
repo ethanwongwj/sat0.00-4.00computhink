@@ -16,11 +16,11 @@ function draw() {
     }
     if(ballx = 350) {
         cmxnum = -5;
-        colrgba = (random(0,255),random(0,255),random(0,255),random(0.3,1.0));
+        fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
     if(ballY = 0) {
         cmynum = 5;
-        colrgba = (random(0,255),random(0,255),random(0,255),random(0.3,1.0));
+        fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
     if(ballY = 350) {
         cmynum = -5;
