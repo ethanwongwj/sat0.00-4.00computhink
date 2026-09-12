@@ -6,5 +6,6 @@ function setup() {
     background(220);
 }
 function draw() {
-    circle(ballX,ballY,50)
+    circle(ballX,ballY,50);
+    
 }
