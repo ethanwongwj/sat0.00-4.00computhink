@@ -7,7 +7,6 @@ function setup() {
     background(220);
 }
 function draw() {
-    circle(ballX,ballY,50);
     if(ballX = 0) {
         cmxnum = 5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
@@ -26,4 +25,5 @@ function draw() {
     }
     ballX = ballX + cmxnum;
     ballY = ballY + cmynum;
+    circle(ballX,ballY,50);
 }
