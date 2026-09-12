@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-    if(ballX = 0) {
+    if(ballX <= 1) {
         cmxnum = 5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
