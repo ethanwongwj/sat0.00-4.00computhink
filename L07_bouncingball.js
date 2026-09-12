@@ -25,6 +25,6 @@ function draw() {
     }
     ballX = ballX + cmxnum;
     ballY = ballY + cmynum;
-    console.log
+    console.log(ballX&&ballY)
     circle(ballX,ballY,50);
 }
