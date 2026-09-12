@@ -9,6 +9,7 @@ function setup() {
 }
 function draw() {
     circle(ballX,ballY,50);
+    fill(colrgba)
     if(ballX = 0) {
         cmxnum = 5;
         colrgba = (random(0,255),random(0,255),random(0,255),random(0.3,1.0));
