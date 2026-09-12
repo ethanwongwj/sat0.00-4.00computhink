@@ -6,7 +6,7 @@ function setup() {
     createCanvas(400,400);
     background(220);
 }
-noStroke()
+
 function draw() {
     if(ballX <= 0) {
         cmxnum = 5;
@@ -32,5 +32,6 @@ function draw() {
     ballY = ballY + cmynum;
     console.log(ballX, ballY);
     console.log(cmxnum, cmynum);
+    noStroke
     circle(ballX,ballY,50);
 }
