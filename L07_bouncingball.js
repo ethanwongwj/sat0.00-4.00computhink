@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-    if(ballX <= 1) {
+    if(ballX <= 0) {
         cmxnum = 5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
@@ -16,11 +16,11 @@ function draw() {
         cmxnum = -5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
-    if(ballY = 0) {
+    if(ballY <= 0) {
         cmynum = 5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
-    if(ballY = 350) {
+    if(ballY >= 350) {
         cmynum = -5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
     }
