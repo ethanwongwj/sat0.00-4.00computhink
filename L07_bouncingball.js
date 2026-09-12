@@ -21,12 +21,12 @@ function draw() {
     if(ballY <= 0) {
         cmynum = 5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
-        console.log("Bounce left");
+        console.log("Bounce top");
     }
     if(ballY >= 350) {
         cmynum = -5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
-        console.log("Bounce left");
+        console.log("Bounce bottom");
     }
     ballX = ballX + cmxnum;
     ballY = ballY + cmynum;
