@@ -11,11 +11,12 @@ function draw() {
     if(ballX <= 0) {
         cmxnum = 5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
-        console.log("Bounce ")
+        console.log("Bounce left");
     }
     if(ballX >= 350) {
         cmxnum = -5;
         fill(random(0,255),random(0,255),random(0,255),random(0.3,1.0));
+        console.log("Bounce left");
     }
     if(ballY <= 0) {
         cmynum = 5;
