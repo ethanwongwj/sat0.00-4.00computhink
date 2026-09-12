@@ -1,9 +1,9 @@
-let ballX = 200;
+let ballX = 300;
 let ballY = 200;
 let cmxnum = 5;
 let cmynum = 5; 
 function setup() {
-    createCanvas(400,400);
+    createCanvas(600,400);
     background(220);
 }
 
