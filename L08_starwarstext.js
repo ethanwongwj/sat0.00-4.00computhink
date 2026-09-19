@@ -1,11 +1,11 @@
-let ypos;
+let yPos;
 function setup() {
     createCanvas(600,400);
     textAlign(LEFT,CENTER);
     textSize(24);
     fill("rgb(255,255,0)");
 }
-ypos = height;
+yPos = height;
 function draw() {
     background(0);
     text("asd",width / 2, yPos);
