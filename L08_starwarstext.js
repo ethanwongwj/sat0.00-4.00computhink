@@ -14,7 +14,7 @@ let storyText = [
 ];
 let bgmusic;
 function preload() {
-    bgmusic = loadSound(star_wars)
+    bgmusic = loadSound(star_wars_theme_8_bit.mp3)
 }
 function setup() {
     createCanvas(600,400);
