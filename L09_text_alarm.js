@@ -1,6 +1,7 @@
 let min;
 let sec;
 let hr;
+let timeString;
 function setup() {
     createCanvas(600,400);
     textAlign(CENTER,CENTER);
