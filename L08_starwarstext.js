@@ -8,5 +8,5 @@ function setup() {
 ypos = height;
 function draw() {
     background(0);
-    text("asd",width)
+    text("asd",width / 2, ypos)
 }
