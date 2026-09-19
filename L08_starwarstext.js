@@ -5,7 +5,7 @@ function setup() {
     textSize(24);
     fill("rgb(255,255,0)");
 }
-
+ypos = height;
 function draw() {
     background(0);
     text("asd",width)
