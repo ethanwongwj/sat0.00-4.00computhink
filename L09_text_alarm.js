@@ -1,5 +1,5 @@
-let minuite;
-let second;
+let min;
+let sec;
 let hr;
 function setup() {
     createCanvas(600,400);
