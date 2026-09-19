@@ -9,5 +9,6 @@ function setup() {
 }
 function draw() {
     background(100);
-    hr
+    hr = hour()
+    minuite = minuite
 }
