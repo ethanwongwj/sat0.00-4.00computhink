@@ -19,7 +19,7 @@ function setup() {
     textSize(24);
     fill("rgb(255,255,0)");
 }
-yPos = ;
+yPos = 400;
 function draw() {
     background(0);
     text("asd",width / 2, yPos);
