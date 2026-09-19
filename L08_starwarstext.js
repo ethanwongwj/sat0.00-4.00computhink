@@ -1,6 +1,6 @@
 let yPos;
 let storyText = [
-    "A"
+    "A loooooong time ago"
 ]
 function setup() {
     createCanvas(600,400);
