@@ -23,4 +23,7 @@ yPos = height;
 function draw() {
     background(0);
     text("asd",width / 2, yPos);
+    for(let i = 0; i< storyText.length; i++) {
+        
+    }
 }
