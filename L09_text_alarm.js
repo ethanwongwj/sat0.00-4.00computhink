@@ -12,4 +12,5 @@ function draw() {
     hr = hour();
     minuite = minuite();
     second = second();
+    text(hr,width)
 }
