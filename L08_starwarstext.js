@@ -12,7 +12,7 @@ let storyText = [
     "won thier first victory",
     "against the evil Galactic",
     "Empire."
-]
+];
 function setup() {
     createCanvas(600,400);
     textAlign(LEFT,CENTER);
@@ -23,5 +23,4 @@ yPos = height;
 function draw() {
     background(0);
     text("asd",width / 2, yPos);
-    
 }
