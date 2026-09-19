@@ -6,3 +6,6 @@ function setup() {
     textSize(24);
     fill("rgb(20,0,255)");
 }
+function draw() {
+    background(100)
+}
