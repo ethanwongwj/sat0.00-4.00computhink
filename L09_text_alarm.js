@@ -1,5 +1,6 @@
 let minuite;
 let second;
+let hr 
 function setup() {
     createCanvas(600,400);
     textAlign(CENTER,CENTER);
@@ -7,5 +8,6 @@ function setup() {
     fill("rgb(20,0,255)");
 }
 function draw() {
-    background(100)
+    background(100);
+    hr
 }
