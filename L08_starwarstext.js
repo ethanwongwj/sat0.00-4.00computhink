@@ -1,4 +1,5 @@
 let yPos;
+let story
 function setup() {
     createCanvas(600,400);
     textAlign(LEFT,CENTER);
