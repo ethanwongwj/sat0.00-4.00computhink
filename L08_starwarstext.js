@@ -13,7 +13,9 @@ let storyText = [
     "Empire."
 ];
 let bgmusic;
-
+function preload() {
+    
+}
 function setup() {
     createCanvas(600,400);
     textAlign(CENTER,CENTER);
