@@ -12,6 +12,8 @@ let storyText = [
     "against the evil Galactic",
     "Empire."
 ];
+let bgmusic;
+
 function setup() {
     createCanvas(600,400);
     textAlign(CENTER,CENTER);
