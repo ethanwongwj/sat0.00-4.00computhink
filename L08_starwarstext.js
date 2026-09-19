@@ -6,6 +6,7 @@ let storyText = [
     "Episode I",
     "The Beginning",
     "",
+    "It is a period of civil war.",
     ""
 ]
 function setup() {
