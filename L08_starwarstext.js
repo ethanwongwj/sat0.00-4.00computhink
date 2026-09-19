@@ -3,7 +3,8 @@ let storyText = [
     "A long time ago in a galaxy far,",
     "far away......",
     "",
-    "Epi"
+    "Episode I",
+    ""
 
 ]
 function setup() {
