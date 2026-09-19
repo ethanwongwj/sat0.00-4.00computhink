@@ -21,6 +21,7 @@ function setup() {
     textAlign(LEFT,CENTER);
     textSize(24);
     fill("rgb(255,255,0)");
+    bgMusic.loop
 }
 yPos = 400;
 function draw() {
