@@ -15,5 +15,5 @@ function draw() {
     text(hr,width /2, height/2);
     text(minuite,width/2,height/2+100);
     text(seconde,width/2,height/2+100);
-    timeString = nf(hr,2)+":"+nf(min,2)+":"+nf
+    timeString = nf(hr,2)+":"+nf(min,2)+":"+nf(second,2)
 }
