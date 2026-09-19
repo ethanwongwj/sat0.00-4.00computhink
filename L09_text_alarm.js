@@ -4,5 +4,5 @@ function setup() {
     createCanvas(600,400);
     textAlign(CENTER,CENTER);
     textSize(24);
-    fill("rgb(208,")
+    fill("rgb(208,0,255");
 }
