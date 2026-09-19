@@ -13,6 +13,6 @@ function draw() {
     minuite = minuite();
     second = second();
     text(hr,width /2, height/2);
-    text(minuite,width/2,height/2);
+    text(minuite,width/2,height/2+100);
     text(seconde,width/2,height/2+100)
 }
