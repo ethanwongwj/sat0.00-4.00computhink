@@ -10,10 +10,10 @@ function setup() {
 function draw() {
     background(100);
     hr = hour();
-    minuite = minute();
-    second = second();
+    min = minute();
+    sec = second();
     text(hr,width /2, height/2);
-    text(minuite,width/2,height/2+100);
-    text(seconde,width/2,height/2+100);
+    text(min,width/2,height/2+100);
+    text(sec,width/2,height/2+100);
     text(timeString,width/2,height/2);
 }
