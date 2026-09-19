@@ -10,5 +10,6 @@ function setup() {
 function draw() {
     background(100);
     hr = hour()
-    minuite = minuite
+    minuite = minuite()
+    second = second()
 }
