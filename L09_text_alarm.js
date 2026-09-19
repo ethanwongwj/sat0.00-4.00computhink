@@ -9,7 +9,7 @@ function setup() {
 }
 function draw() {
     background(100);
-    hr = hour()
-    minuite = minuite()
-    second = second()
+    hr = hour();
+    minuite = minuite();
+    second = second();
 }
