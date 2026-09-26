@@ -45,6 +45,6 @@ function updateCountdown() {
     countdown--;
     if(countdown <= 0) {
         countdown = 0;
-        clear(intervalid)
+        clearInterval(intervalid)
     }
 }
