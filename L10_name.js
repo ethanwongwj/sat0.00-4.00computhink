@@ -3,9 +3,9 @@ let displayText = "Your Name Here";
 function setup() {
     createCanvas(600,400);
     inputText = createInput();
-
+    
 }
 
 function draw() {
-    background(0)
+    background(0);
 }
