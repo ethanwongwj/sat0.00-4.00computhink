@@ -19,7 +19,6 @@
 //     timeString = nf(hr,2) + " : " + nf(min,2) + " : " + nf(sec,2)
 //     text(timeString,width/2,height/2);
 // }
-
 let intervalid = setInterval(updateCountdown, 1000);
 let countdown = 5;
 function setup() {
@@ -46,5 +45,5 @@ function updateCountdown() {
     }
 }
 function mousePressed() {
-        intervalid = setInterval(drawCircle,1000);
+    intervalid = setInterval(drawCircle,1000);
 }
