@@ -24,7 +24,7 @@ let intervalid;
 let x = 0;
 function setup() {
     createCanvas(600,400);
-    background(220);
+    background(0);
     intervalid = setInterval(drawCircle,1000);
 }
 
@@ -35,4 +35,8 @@ function drawCircle() {
     if(x>200) {
         x = 0
     }
+}
+
+function mousePressed() {
+    
 }
