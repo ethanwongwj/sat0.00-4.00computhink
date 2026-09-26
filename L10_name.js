@@ -8,7 +8,8 @@ function setup() {
     inputText = createInput();
     inputText.input(updateText);
     inputText.position(width/2,height/2);
-    inputText.input(updateText)
+    inputText.input(updateText);
+    let inputX = this.canvas.offset
 }
 
 function draw() {
