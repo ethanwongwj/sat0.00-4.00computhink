@@ -36,6 +36,7 @@ function draw() {
     //     x = 0
     // }
     text(countdown, width / 2, height / 2);
+                background(0);
 }
 
 function updateCountdown() {
@@ -43,7 +44,6 @@ function updateCountdown() {
     if(countdown <= 0) {
         countdown = 0;
         clearInterval(intervalid)
-            background(0);
     }
 }
 function mousePressed() {
