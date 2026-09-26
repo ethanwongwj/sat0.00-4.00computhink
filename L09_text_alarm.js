@@ -21,7 +21,7 @@
 // }
 
 let intervalid = 1;
-let countdown;
+let countdown = 5;
 function setup() {
     createCanvas(6000,400);
     background(0);
@@ -38,6 +38,5 @@ function setup() {
 // }
 
 function mousePressed() {
-    countdown = 5
     
 }
