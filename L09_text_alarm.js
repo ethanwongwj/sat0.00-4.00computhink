@@ -20,7 +20,7 @@
 //     text(timeString,width/2,height/2);
 // }
 
-let intervalid = 1;
+let intervalid = setInterval(update);
 let countdown = 5;
 function setup() {
     createCanvas(6000,400);
