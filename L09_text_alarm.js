@@ -23,7 +23,7 @@ let intervalid = setInterval(updateCountdown, 1000);
 let countdown;
 let countdownStart = false;
 function setup() {
-    createCanvas(6000,400);
+    createCanvas(600,400);
     background(0);
     fill("rgb(20,0,255)");
     textSize(40);
