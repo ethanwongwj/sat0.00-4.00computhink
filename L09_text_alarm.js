@@ -39,7 +39,4 @@ function setup() {
 
 function mousePressed() {
     
-        countdown = countdown - 1;
-
-    }
 }
