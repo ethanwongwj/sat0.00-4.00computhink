@@ -35,8 +35,8 @@ function draw() {
     // if(x>200) {
     //     x = 0
     // }
+        background(0);
     text(countdown, width / 2, height / 2);
-    background(0);
 }
 
 function updateCountdown() {
