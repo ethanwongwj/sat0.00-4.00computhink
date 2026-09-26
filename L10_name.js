@@ -10,7 +10,7 @@ function setup() {
     inputText.position(width/2,height/2);
     inputText.input(updateText);
     let inputX = this.canvas.offset+(width/2)-80
-    let
+    let inputY = this.canvas.offset+(width/2)
 }
 
 function draw() {
