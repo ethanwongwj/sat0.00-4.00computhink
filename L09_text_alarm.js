@@ -20,7 +20,7 @@
 //     text(timeString,width/2,height/2);
 // }
 
-let intervalid;
+let intervalid = 1;
 let couontdown;
 function setup() {
     createCanvas(6000,400);
@@ -38,5 +38,5 @@ function setup() {
 // }
 
 function mousePressed() {
-    intervali
+    
 }
