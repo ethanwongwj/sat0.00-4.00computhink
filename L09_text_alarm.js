@@ -29,14 +29,14 @@ function setup() {
     intervalid = setInterval(drawCircle,1000);
 }
 
-function drawCircle() {
-    clear();
-    circle(x,50,20);
-    x += 1000;
-    if(x>200) {
-        x = 0
-    }
-}
+// function drawCircle() {
+//     clear();
+//     circle(x,50,20);
+//     x += 1000;
+//     if(x>200) {
+//         x = 0
+//     }
+// }
 
 function mousePressed() {
     clearInterval(intervalid);
