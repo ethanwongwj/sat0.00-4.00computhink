@@ -30,11 +30,11 @@ function setup() {
     textSize(40);
 }
 function draw() {
-    circle(x,50,20);
-    x += 10;
-    if(x>200) {
-        x = 0
-    }
+    // circle(x,50,20);
+    // x += 10;
+    // if(x>200) {
+    //     x = 0
+    // }
     text(countdown, width / 2, height / 2);
 }
 
