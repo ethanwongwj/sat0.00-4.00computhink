@@ -46,9 +46,10 @@ function updateCountdown() {
 }
 function mousePressed() {
     if(countdownStart === false) {
-        clearInterval = (intervalid)
-        
-    intervalid = setInterval(drawCircle,1000);
+        clearInterval = (intervalid);
+
+
+        intervalid = setInterval(drawCircle,1000);
     }
     countdownStart = false;
 }
