@@ -29,7 +29,7 @@ function setup() {
     textSize(24);
     intervalid = setInterval(drawCircle,1000);
 }
-function drawCircle() {
+function draw() {
     circle(x,50,20);
     x += 10;
     if(x>200) {
