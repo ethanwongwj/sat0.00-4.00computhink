@@ -11,4 +11,5 @@ function draw() {
 }
 function updateText() {
     displayText = this.value();
+    console.log
 }
