@@ -26,6 +26,7 @@ function setup() {
     createCanvas(6000,400);
     background(0);
     fill("rgb(20,0,255)");
+    textSize(24);
     intervalid = setInterval(drawCircle,1000);
 }
 
@@ -39,5 +40,5 @@ function setup() {
 // }
 
 function mousePressed() {
-    
+
 }
