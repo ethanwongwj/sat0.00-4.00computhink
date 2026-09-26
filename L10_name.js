@@ -2,9 +2,10 @@ let inputText;
 let displayText = "Your Name Here";
 function setup() {
     createCanvas(600,400);
+    fill
     inputText = createInput();
     inputText.input(updateText);
-    inputText.position(width/2,height/2)
+    inputText.position(width/2,height/2);
 }
 
 function draw() {
