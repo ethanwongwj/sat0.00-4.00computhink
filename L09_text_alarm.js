@@ -38,5 +38,5 @@ function drawCircle() {
 }
 
 function mousePressed() {
-    
+    clearIntervl
 }
