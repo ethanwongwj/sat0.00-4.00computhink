@@ -35,8 +35,6 @@ function draw() {
     if(x>200) {
         x = 0
     }
-}
-function draw() {
     background()
     text(countdown, width / 2, height / 2);
 }
