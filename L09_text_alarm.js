@@ -31,7 +31,7 @@ function setup() {
 function drawCircle() {
     clear();
     circle(x,50,20);
-    x += 10;
+    x += 1000;
     if(x>200) {
         x = 0
     }
