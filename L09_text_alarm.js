@@ -34,7 +34,6 @@ function draw() {
     if(x>200) {
         x = 0
     }
-    background()
     text(countdown, width / 2, height / 2);
 }
 
@@ -46,5 +45,6 @@ function updateCountdown() {
     }
 }
 function mousePressed() {
+    if(countdownStart = false)
     intervalid = setInterval(drawCircle,1000);
 }
