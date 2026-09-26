@@ -22,6 +22,6 @@
 
 let intervalid;
 let x = 0;
-function setup( {
-
+function setup() {
+    
 }
