@@ -29,14 +29,14 @@ function setup() {
     textSize(24);
     intervalid = setInterval(drawCircle,1000);
 }
-// function drawCircle() {
-//     clear();
-//     circle(x,50,20);
-//     x += 100;
-//     if(x>200) {
-//         x = 0
-//     }
-// }
+function drawCircle() {
+    clear();
+    circle(x,50,20);
+    x += 10;
+    if(x>200) {
+        x = 0
+    }
+}
 function draw() {
     background()
     text(countdown, width / 2, height / 2);
@@ -44,4 +44,7 @@ function draw() {
 
 function updateCountdown() {
     countdown--;
+    if(countdown <= 0) {
+        
+    }
 }
