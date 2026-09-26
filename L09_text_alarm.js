@@ -29,7 +29,9 @@ function setup() {
     textSize(24);
     intervalid = setInterval(drawCircle,1000);
 }
-
+intervalid = setInterval(() => {
+    
+}, interval);
 // function drawCircle() {
 //     clear();
 //     circle(x,50,20);
