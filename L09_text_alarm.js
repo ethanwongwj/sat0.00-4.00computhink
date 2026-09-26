@@ -45,6 +45,6 @@ function updateCountdown() {
     }
 }
 function mousePressed() {
-    if(countdownStart = false)
+    if(countdownStart === false) {}
     intervalid = setInterval(drawCircle,1000);
 }
