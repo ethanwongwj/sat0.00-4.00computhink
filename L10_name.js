@@ -4,7 +4,7 @@ function setup() {
     createCanvas(600,400);
     fill(255,255,0);
     textSize(40);
-    TEXTALIGN(CENTER,CENTER)
+    textAlign(CENTER,CENTER)
     inputText = createInput();
     inputText.input(updateText);
     inputText.position(width/2,height/2);
