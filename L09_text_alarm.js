@@ -24,5 +24,5 @@ let intervalid;
 let x = 0;
 function setup() {
     createCanvas(600,400);
-    intervalid = setInterval
+    intervalid = setInterval(drawCircle,1000)
 }
