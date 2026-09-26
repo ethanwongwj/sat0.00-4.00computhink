@@ -38,6 +38,5 @@ function setup() {
 // }
 
 function mousePressed() {
-    clearInterval(intervalid);
-    
+    intervali
 }
