@@ -39,6 +39,6 @@ function setup() {
 //     }
 // }
 
-function mousePressed() {
-
+function updateCountdown() {
+    
 }
