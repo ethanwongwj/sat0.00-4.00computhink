@@ -31,7 +31,7 @@ function setup() {
 // function drawCircle() {
 //     clear();
 //     circle(x,50,20);
-//     x += 1000;
+//     x += 100;
 //     if(x>200) {
 //         x = 0
 //     }
@@ -39,4 +39,7 @@ function setup() {
 
 function mousePressed() {
     
+        countdown = countdown - 1;
+
+    }
 }
