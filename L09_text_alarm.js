@@ -29,5 +29,6 @@ function setup() {
 }
 
 function drawCircle() {
+    clear();
     
 }
