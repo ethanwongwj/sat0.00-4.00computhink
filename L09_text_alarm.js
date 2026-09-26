@@ -40,7 +40,7 @@ intervalid = updateCountdown;
 // }
 function draw() {
     background()
-    
+    text(countdown, width)
 }
 
 function updateCountdown() {
