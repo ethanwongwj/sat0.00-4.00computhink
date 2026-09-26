@@ -40,5 +40,5 @@ function setup() {
 // }
 
 function updateCountdown() {
-    countdown--
+    countdown--;
 }
