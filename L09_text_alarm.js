@@ -49,5 +49,5 @@ function mousePressed() {
         clearInterval = (intervalid)
     intervalid = setInterval(drawCircle,1000);
     }
-    countdownStart = false
+    countdownStart = false;
 }
