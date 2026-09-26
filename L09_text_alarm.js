@@ -46,3 +46,6 @@ function updateCountdown() {
         clearInterval(intervalid)
     }
 }
+function mousePressed() {
+    
+}
