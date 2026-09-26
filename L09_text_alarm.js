@@ -38,6 +38,10 @@ intervalid = updateCountdown;
 //         x = 0
 //     }
 // }
+function draw() {
+    background()
+    
+}
 
 function updateCountdown() {
     countdown--;
