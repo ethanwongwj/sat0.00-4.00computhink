@@ -27,7 +27,6 @@ function setup() {
     background(0);
     fill("rgb(20,0,255)");
     textSize(24);
-    intervalid = setInterval(drawCircle,1000);
 }
 function draw() {
     circle(x,50,20);
@@ -47,5 +46,5 @@ function updateCountdown() {
     }
 }
 function mousePressed() {
-    
+        intervalid = setInterval(drawCircle,1000);
 }
