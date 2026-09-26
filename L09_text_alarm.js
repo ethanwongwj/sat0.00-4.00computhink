@@ -39,11 +39,11 @@ function draw() {
 }
 
 function updateCountdown() {
-    background(0);
     countdown--;
     if(countdown <= 0) {
         countdown = 0;
         clearInterval(intervalid)
+            background(0);
     }
 }
 function mousePressed() {
