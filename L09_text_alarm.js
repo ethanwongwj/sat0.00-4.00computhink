@@ -21,8 +21,7 @@
 // }
 
 let intervalid;
-let x = 0;
-let couontdown
+let couontdown;
 function setup() {
     createCanvas(6000,400);
     background(0);
