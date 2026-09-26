@@ -10,5 +10,5 @@ function draw() {
     background(0);
 }
 function updateText() {
-    displayText = this
+    displayText = this.value();
 }
