@@ -26,7 +26,7 @@ function setup() {
     createCanvas(6000,400);
     background(0);
     fill("rgb(20,0,255)");
-    textSize(24);
+    textSize(40);
 }
 function draw() {
     circle(x,50,20);
