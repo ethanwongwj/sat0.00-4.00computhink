@@ -21,7 +21,7 @@
 // }
 let x;
 let intervalid = setInterval(updateCountdown, 1000);
-let countdown;
+let countdown = 5;
 let countdownStart = false;
 function setup() {
     createCanvas(600,400);
