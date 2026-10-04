@@ -17,15 +17,14 @@ function setup() {
     placeInput = createInput();
     placeInput.position(width / 2 , 180 );
     button = createButton("Generate");
-    button.position(width / 2 , 2 );
+    button.position(width / 2 , 230 );
     button.mousePressed(updateStory);
 }
 function draw() {
     background(220);
     textSize(20);
     textAlign(RIGHT,CENTER);
-    text(":" , width/2-10,110);
-    text(":" , width/2-10,130);
+
 }
 function updateStory() {
     print("Hello " + textInput.value());
