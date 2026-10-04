@@ -5,7 +5,7 @@ function setup() {
     textInput = createInput()
     textInput.position(width / 2 , 100);
     button = createButton()
-    button.position
+    button.position(width / 2 , 130 )
 }
 function draw() {
     background(220);
