@@ -18,6 +18,7 @@ function setup() {
     storyText = storyText.replace("{verb}" , verbInput);
     storyText = storyText.replace("{adv}" , advInput);
     storyText = storyText.replace("{place}" , placeInput);
+    
     createCanvas(700,700);
     nounInput = createInput();
     nounInput.position(width / 2 , 100 );
