@@ -10,7 +10,6 @@ function setup() {
     button = createButton("Generate");
     button.position(width / 2 , 150 );
     button.mousepressed(updateStory);
-    
 }
 function draw() {
     background(220);
@@ -18,4 +17,7 @@ function draw() {
     textAlign(RIGHT,CENTER);
     text("give me your name :" , width/2-10,110);
     text("give me your address :" , width/2-10,130);
+}
+function updateStory() {
+    
 }
