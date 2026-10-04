@@ -9,6 +9,6 @@ function setup() {
 }
 function draw() {
     background(220);
-    tezxt()
+    textSize()
     text("give me your name")
 }
