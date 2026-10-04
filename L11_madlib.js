@@ -4,7 +4,7 @@ function setup() {
     createCanvas(700,700);
     textInput = createInput()
     textInput.position(width / 2 , 100 );
-    button = createButton()
+    button = createButton(Click me To generate)
     button.position(width / 2 , 130 );
 }
 function draw() {
