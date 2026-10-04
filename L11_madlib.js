@@ -48,5 +48,6 @@ function updateStory() {
     console.log(storyText);
     textAlign(CENTER,CENTER);
     textSize(14);
-    fill("")
+    fill("black");
+    text(stor)
 }
