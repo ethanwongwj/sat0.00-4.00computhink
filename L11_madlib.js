@@ -17,7 +17,7 @@ function setup() {
     placeInput = createInput();
     placeInput.position(width / 2 , 180 );
     button = createButton("Generate");
-    button.position(width / 2 , 150 );
+    button.position(width / 2 , 2 );
     button.mousePressed(updateStory);
 }
 function draw() {
