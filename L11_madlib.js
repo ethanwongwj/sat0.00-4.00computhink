@@ -38,7 +38,7 @@ function draw() {
     text("Enter an adverb        e.g. sadly:" , width/2-10,200);
     text("Enter a place          e.g. zoo  :" , width/2-10,230);
     textAlign(CENTER,CENTER);
-    textSize(14);
+    textSize(17);
     fill("black");
     text(storyText , width / 2 , height / 2);
 }
