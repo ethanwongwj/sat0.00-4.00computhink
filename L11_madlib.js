@@ -31,7 +31,7 @@ function setup() {
     storyText = storyText.replace("{adj}" , adjInput);
     storyText = storyText.replace("{verb}" , verbInput);
     storyText = storyText.replace("{adv}" , advInput);
-    storyText = storyText.replace("{adj}" , adjInput);
+    storyText = storyText.replace("{place}" , placeInput);
 }
 function draw() {
     background(220);
