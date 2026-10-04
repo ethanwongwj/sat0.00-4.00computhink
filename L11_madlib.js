@@ -7,6 +7,17 @@ let button;
 let storyText;
 let storyTemplates;
 function setup() {
+        storyTemplates [
+        "The {adj} {noun} decided to {verb} {adv} at the {place}",
+        "One day , a {adj} {noun} wanted to {verb} {adv} in {place}",
+        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place} ?"
+    ]
+    template = random(storyTemplates);
+    storyText = template.replace("{noun}" , nounInput);
+    storyText = storyText.replace("{adj}" , adjInput);
+    storyText = storyText.replace("{verb}" , verbInput);
+    storyText = storyText.replace("{adv}" , advInput);
+    storyText = storyText.replace("{place}" , placeInput);
     createCanvas(700,700);
     nounInput = createInput();
     nounInput.position(width / 2 , 100 );
@@ -21,17 +32,6 @@ function setup() {
     button = createButton("Generate");
     button.position(width / 2 , 250 );
     button.mousePressed(updateStory);
-    storyTemplates [
-        "The {adj} {noun} decided to {verb} {adv} at the {place}",
-        "One day , a {adj} {noun} wanted to {verb} {adv} in {place}",
-        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place} ?"
-    ]
-    template = random(storyTemplates);
-    storyText = template.replace("{noun}" , nounInput);
-    storyText = storyText.replace("{adj}" , adjInput);
-    storyText = storyText.replace("{verb}" , verbInput);
-    storyText = storyText.replace("{adv}" , advInput);
-    storyText = storyText.replace("{place}" , placeInput);
 }
 function draw() {
     background(220);
