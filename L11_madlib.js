@@ -6,7 +6,7 @@ function setup() {
     textInput = createInput();
     textInput.position(width / 2 , 100 );
     textInput = createInput();
-    textInput.position(width / 2 , 120 );
+    secondInput.position(width / 2 , 120 );
     button = createButton("Generate");
     button.position(width / 2 , 150 );
 }
