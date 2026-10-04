@@ -41,8 +41,8 @@ function draw() {
 function updateStory() {
     template = random(storyTemplates);
     storyText = template.replace("{noun}" , nounInput.value());
-    storyText = storyText.replace("{adj}" , adjInput.value);
-    storyText = storyText.replace("{verb}" , verbInput);
+    storyText = storyText.replace("{adj}" , adjInput.value());
+    storyText = storyText.replace("{verb}" , verbInput.value());
     storyText = storyText.replace("{adv}" , advInput);
     storyText = storyText.replace("{place}" , placeInput);
     console.log(storyText);
