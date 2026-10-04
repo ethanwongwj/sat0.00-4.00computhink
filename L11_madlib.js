@@ -23,7 +23,7 @@ function setup() {
     button.mousePressed(updateStory);
     storyTemplates [
         "The {adj} {noun} decided to {verb} {adv} at the {place}",
-        "One day"
+        "One day , a "
     ]
 }
 function draw() {
