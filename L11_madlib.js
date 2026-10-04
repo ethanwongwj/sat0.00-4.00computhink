@@ -1,7 +1,7 @@
 let nounInput;
 let verbInput;
 let adjInput;
-let forthInput;
+let advInput;
 let fifthInput;
 let button;
 function setup() {
@@ -11,7 +11,7 @@ function setup() {
     verbInput = createInput();
     verbInput.position(width / 2 , 120 );
     adjInput = createInput();
-    textInput.position(width / 2 , 100 );
+    adjInput.position(width / 2 , 100 );
     secondInput = createInput();
     secondInput.position(width / 2 , 120 );
     button = createButton("Generate");
