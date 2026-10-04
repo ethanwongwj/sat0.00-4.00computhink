@@ -1,6 +1,7 @@
 let textInput;
 let secondInput;
-let 
+let thirdInput;
+let forthInput
 let button;
 function setup() {
     createCanvas(700,700);
