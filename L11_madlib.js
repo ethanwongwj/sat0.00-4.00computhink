@@ -28,7 +28,8 @@ function setup() {
     ]
     template = random(storyTemplates);
     storyText = template.replace("{noun}" , nounInput);
-    storyText = storytext.replace("{adj}" , adjInput);
+    storyText = storyText.replace("{adj}" , adjInput);
+    storyText = storyText.replace("{adj}" , adjInput);
 }
 function draw() {
     background(220);
