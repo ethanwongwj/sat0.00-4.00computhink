@@ -10,7 +10,7 @@ function setup() {
     textInput.position(width / 2 , 100 );
     secondInput = createInput();
     secondInput.position(width / 2 , 120 );
-    textInput = createInput();
+    thirdInput = createInput();
     textInput.position(width / 2 , 100 );
     secondInput = createInput();
     secondInput.position(width / 2 , 120 );
