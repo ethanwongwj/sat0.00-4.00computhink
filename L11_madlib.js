@@ -1,5 +1,6 @@
 let textInput;
 let secondInput;
+let 
 let button;
 function setup() {
     createCanvas(700,700);
@@ -15,7 +16,7 @@ function draw() {
     background(220);
     textSize(20);
     textAlign(RIGHT,CENTER);
-    text("give me your name :" , width/2-10,110);
+    text(":" , width/2-10,110);
     text(":" , width/2-10,130);
 }
 function updateStory() {
