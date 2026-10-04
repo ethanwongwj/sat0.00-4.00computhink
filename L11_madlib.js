@@ -25,8 +25,8 @@ function draw() {
     textSize(20);
     textAlign(RIGHT,CENTER);
     text("Enter a noun:" , width/2-10,110);
-    text("Enter a verb:" , width/2-10,130);
-    text("Enter an adjective:" , width/2-10,150);
+    text("Enter a verb:" , width/2-10,140);
+    text("Enter an adjective:" , width/2-10,170);
     text("Enter an adverb:" , width/2-10,170);
     text("Etner a place:" , width/2-10,190);
 }
