@@ -32,5 +32,5 @@ function draw() {
 }
 function updateStory() {
     print("Hello " + nounInput.value());
-    print("I am going to " + secondInput.value())
+    print(" " + verbInput.value())
 }
