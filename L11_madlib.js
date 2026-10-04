@@ -26,9 +26,9 @@ function draw() {
     textAlign(RIGHT,CENTER);
     text("Enter a noun       :" , width/2-10,110);
     text("Enter a verb       :" , width/2-10,140);
-    text("Enter an adjective:" , width/2-10,170);
-    text("Enter an adverb:" , width/2-10,200);
-    text("Etner a place:" , width/2-10,230);
+    text("Enter an adjective :" , width/2-10,170);
+    text("Enter an adverb    :" , width/2-10,200);
+    text("Etner a place      :" , width/2-10,230);
 }
 function updateStory() {
     print("Hello " + textInput.value());
