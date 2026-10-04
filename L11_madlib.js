@@ -28,7 +28,7 @@ function setup() {
     ]
     template = random(storyTemplates);
     storyText = template.replace("{noun}" , "dog");
-    storyText
+    storyText = template.replace("")
 }
 function draw() {
     background(220);
