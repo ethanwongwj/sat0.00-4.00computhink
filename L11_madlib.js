@@ -9,5 +9,6 @@ function setup() {
 }
 function draw() {
     background(220);
+    tezxt()
     text("give me your name")
 }
