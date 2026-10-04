@@ -1,4 +1,4 @@
-let textInput;
+let nounInput;
 let secondInput;
 let thirdInput;
 let forthInput;
@@ -6,7 +6,7 @@ let fifthInput;
 let button;
 function setup() {
     createCanvas(700,700);
-    textInput = createInput();
+    nounInput = createInput();
     textInput.position(width / 2 , 100 );
     secondInput = createInput();
     secondInput.position(width / 2 , 120 );
