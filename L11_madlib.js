@@ -1,5 +1,5 @@
 let textInput;
-let
+let secondInput;
 let button;
 function setup() {
     createCanvas(700,700);
