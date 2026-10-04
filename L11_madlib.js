@@ -2,7 +2,7 @@ let nounInput;
 let verbInput;
 let adjInput;
 let advInput;
-let fifthInput;
+let placeInput;
 let button;
 function setup() {
     createCanvas(700,700);
@@ -13,7 +13,8 @@ function setup() {
     adjInput = createInput();
     adjInput.position(width / 2 , 100 );
     advInput = createInput();
-    secondInput.position(width / 2 , 120 );
+    advInput.position(width / 2 , 120 );
+    
     button = createButton("Generate");
     button.position(width / 2 , 150 );
     button.mousePressed(updateStory);
