@@ -9,11 +9,11 @@ function setup() {
     nounInput = createInput();
     nounInput.position(width / 2 , 100 );
     verbInput = createInput();
-    verbInput.position(width / 2 , 120 );
+    verbInput.position(width / 2 , 130 );
     adjInput = createInput();
-    adjInput.position(width / 2 , 140 );
+    adjInput.position(width / 2 , 160 );
     advInput = createInput();
-    advInput.position(width / 2 , 160 );
+    advInput.position(width / 2 , 190 );
     placeInput = createInput();
     placeInput.position(width / 2 , 180 );
     button = createButton("Generate");
