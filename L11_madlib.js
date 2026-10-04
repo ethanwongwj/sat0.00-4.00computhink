@@ -9,6 +9,7 @@ function setup() {
     secondInput.position(width / 2 , 120 );
     button = createButton("Generate");
     button.position(width / 2 , 150 );
+    button.mousepressed(updateStory);
     
 }
 function draw() {
