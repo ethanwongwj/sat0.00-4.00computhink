@@ -9,6 +9,7 @@ function setup() {
 }
 function draw() {
     background(220);
-    textSize()
+    textSize(32);
+    text
     text("give me your name")
 }
