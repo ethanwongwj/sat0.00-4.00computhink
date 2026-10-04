@@ -31,6 +31,6 @@ function draw() {
     text("Etner a place          e.g. zoo  :" , width/2-10,230);
 }
 function updateStory() {
-    print("A " + nounInput.value() + " was " + verbInput.value() + "ing");
+    print("A " +adjInput.value() + nounInput.value() + " was " + verbInput.value() + "ing");
     print(" " + Input.value())
 }
