@@ -10,6 +10,6 @@ function setup() {
 function draw() {
     background(220);
     textSize(32);
-    text
+    textAlign(RIGHT,CENTER )
     text("give me your name")
 }
