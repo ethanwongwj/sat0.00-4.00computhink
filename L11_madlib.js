@@ -49,5 +49,5 @@ function updateStory() {
     textAlign(CENTER,CENTER);
     textSize(14);
     fill("black");
-    text(storyText , width / 2)
+    text(storyText , width / 2 , height / 2);
 }
