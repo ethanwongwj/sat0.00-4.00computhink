@@ -30,6 +30,7 @@ function setup() {
     storyText = template.replace("{noun}" , nounInput);
     storyText = storyText.replace("{adj}" , adjInput);
     storyText = storyText.replace("{verb}" , verbInput);
+    storyText = storyText.replace("{adv}" , advInput);
     storyText = storyText.replace("{adj}" , adjInput);
 }
 function draw() {
