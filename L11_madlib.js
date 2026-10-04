@@ -9,7 +9,7 @@ function setup() {
     secondInput.position(width / 2 , 120 );
     button = createButton("Generate");
     button.position(width / 2 , 150 );
-    button.mousepressed(updateStory);
+    button.mousePressed(updateStory);
 }
 function draw() {
     background(220);
@@ -19,6 +19,6 @@ function draw() {
     text("give me your address :" , width/2-10,130);
 }
 function updateStory() {
-    print("Hello" + textInput.value());
+    print("Hello " + textInput.value());
     print("I am going to " + secondInput.value())
 }
