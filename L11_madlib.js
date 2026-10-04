@@ -5,7 +5,7 @@ let advInput;
 let placeInput;
 let button;
 let storyText;
-let
+let storyTemplates;
 function setup() {
     createCanvas(700,700);
     nounInput = createInput();
