@@ -24,7 +24,7 @@ function draw() {
     background(220);
     textSize(20);
     textAlign(RIGHT,CENTER);
-    text(":" , width/2-10,110);
+    text("Enter a noun:" , width/2-10,110);
     text(":" , width/2-10,130);
     text(":" , width/2-10,150);
     text(":" , width/2-10,170);
