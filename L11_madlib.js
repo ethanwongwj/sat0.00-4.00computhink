@@ -1,6 +1,6 @@
 let nounInput;
 let verbInput;
-let Input;
+let adjInput;
 let forthInput;
 let fifthInput;
 let button;
@@ -10,7 +10,7 @@ function setup() {
     nounInput.position(width / 2 , 100 );
     verbInput = createInput();
     verbInput.position(width / 2 , 120 );
-    thirdInput = createInput();
+    adjInput = createInput();
     textInput.position(width / 2 , 100 );
     secondInput = createInput();
     secondInput.position(width / 2 , 120 );
