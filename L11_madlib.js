@@ -22,7 +22,7 @@ function setup() {
     button.position(width / 2 , 250 );
     button.mousePressed(updateStory);
     storyTemplates [
-        "The {adj} {noun} decided to {ve"
+        "The {adj} {noun} decided to {verb} {adv} at the {place"
     ]
 }
 function draw() {
