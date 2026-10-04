@@ -4,6 +4,8 @@ let adjInput;
 let advInput;
 let placeInput;
 let button;
+let storyText;
+let
 function setup() {
     createCanvas(700,700);
     nounInput = createInput();
