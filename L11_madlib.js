@@ -16,7 +16,7 @@ function draw() {
     textSize(20);
     textAlign(RIGHT,CENTER);
     text("give me your name :" , width/2-10,110);
-    text("give me your address :" , width/2-10,130);
+    text(":" , width/2-10,130);
 }
 function updateStory() {
     print("Hello " + textInput.value());
