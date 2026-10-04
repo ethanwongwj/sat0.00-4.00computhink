@@ -37,6 +37,10 @@ function draw() {
     text("Enter an adjective     e.g. happy:" , width/2-10,170);
     text("Enter an adverb        e.g. sadly:" , width/2-10,200);
     text("Enter a place          e.g. zoo  :" , width/2-10,230);
+    textAlign(CENTER,CENTER);
+    textSize(14);
+    fill("black");
+    text(storyText , width / 2 , height / 2);
 }
 function updateStory() {
     template = random(storyTemplates);
@@ -46,8 +50,4 @@ function updateStory() {
     storyText = storyText.replace("{adv}" , advInput.value());
     storyText = storyText.replace("{place}" , placeInput.value());
     console.log(storyText);
-    textAlign(CENTER,CENTER);
-    textSize(14);
-    fill("black");
-    text(storyText , width / 2 , height / 2);
 }
