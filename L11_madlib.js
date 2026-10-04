@@ -43,7 +43,7 @@ function updateStory() {
     storyText = template.replace("{noun}" , nounInput.value());
     storyText = storyText.replace("{adj}" , adjInput.value());
     storyText = storyText.replace("{verb}" , verbInput.value());
-    storyText = storyText.replace("{adv}" , advInput);
-    storyText = storyText.replace("{place}" , placeInput);
+    storyText = storyText.replace("{adv}" , advInput.value());
+    storyText = storyText.replace("{place}" , placeInput.value());
     console.log(storyText);
 }
