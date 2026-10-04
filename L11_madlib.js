@@ -39,4 +39,11 @@ function draw() {
     text("Enter a place          e.g. zoo  :" , width/2-10,230);
 }
 function updateStory() {
+    template = random(storyTemplates);
+    storyText = template.replace("{noun}" , nounInput.value());
+    storyText = storyText.replace("{adj}" , adjInput.value);
+    storyText = storyText.replace("{verb}" , verbInput);
+    storyText = storyText.replace("{adv}" , advInput);
+    storyText = storyText.replace("{place}" , placeInput);
+    console.log(storyText);
 }
