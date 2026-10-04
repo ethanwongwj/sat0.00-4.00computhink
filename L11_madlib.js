@@ -47,5 +47,6 @@ function updateStory() {
     storyText = storyText.replace("{place}" , placeInput.value());
     console.log(storyText);
     textAlign(CENTER,CENTER);
-    textSize(14)
+    textSize(14);
+    fill("")
 }
