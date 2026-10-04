@@ -3,7 +3,7 @@ let button;
 function setup() {
     createCanvas(700,700);
     textInput = createInput()
-    textInput
+    textInput.position(width)
     button = createButton()
 }
 function draw() {
