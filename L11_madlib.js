@@ -25,9 +25,9 @@ function draw() {
     textSize(20);
     textAlign(RIGHT,CENTER);
     text("Enter a noun       e.g. dog:" , width/2-10,110);
-    text("Enter a verb       e.g.swim:" , width/2-10,140);
-    text("Enter an adjective e.g.:" , width/2-10,170);
-    text("Enter an adverb    :" , width/2-10,200);
+    text("Enter a verb       e.g. swim:" , width/2-10,140);
+    text("Enter an adjective e.g. happy:" , width/2-10,170);
+    text("Enter an adverb    e.g.:" , width/2-10,200);
     text("Etner a place      :" , width/2-10,230);
 }
 function updateStory() {
