@@ -19,5 +19,5 @@ function draw() {
     text("give me your address :" , width/2-10,130);
 }
 function updateStory() {
-    print("Hello" )
+    print("Hello" + textInput.value)
 }
