@@ -27,7 +27,7 @@ function draw() {
     text("Enter a noun:" , width/2-10,110);
     text("Enter a verb:" , width/2-10,130);
     text("Enter an adjective:" , width/2-10,150);
-    text(":" , width/2-10,170);
+    text("Enter an adverb:" , width/2-10,170);
     text(":" , width/2-10,190);
 }
 function updateStory() {
