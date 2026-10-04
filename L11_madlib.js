@@ -11,9 +11,9 @@ function setup() {
     verbInput = createInput();
     verbInput.position(width / 2 , 120 );
     adjInput = createInput();
-    adjInput.position(width / 2 , 100 );
+    adjInput.position(width / 2 , 140 );
     advInput = createInput();
-    advInput.position(width / 2 , 120 );
+    advInput.position(width / 2 , 160 );
     placeInput = createInput();
     placeInput.position(width / 2 , 180 );
     button = createButton("Generate");
