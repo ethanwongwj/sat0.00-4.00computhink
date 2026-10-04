@@ -28,6 +28,7 @@ function draw() {
     text(":" , width/2-10,130);
     text(":" , width/2-10,110);
     text(":" , width/2-10,130);
+    text(":" , width/2-10,130);
 }
 function updateStory() {
     print("Hello " + textInput.value());
