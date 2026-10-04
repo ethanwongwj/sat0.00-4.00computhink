@@ -13,13 +13,6 @@ function setup() {
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place} ?",
         "long long time ago , a {adj} {noun} {verb} {adv} on the {place}"
     ]
-    template = random(storyTemplates);
-    storyText = template.replace("{noun}" , nounInput.value());
-    storyText = storyText.replace("{adj}" , adjInput);
-    storyText = storyText.replace("{verb}" , verbInput);
-    storyText = storyText.replace("{adv}" , advInput);
-    storyText = storyText.replace("{place}" , placeInput);
-    console.log(storyText);
     createCanvas(700,700);
     nounInput = createInput();
     nounInput.position(width / 2 , 100 );
