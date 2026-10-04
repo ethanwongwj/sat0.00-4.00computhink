@@ -31,6 +31,6 @@ function draw() {
     text("Etner a place          e.g. zoo  :" , width/2-10,230);
 }
 function updateStory() {
-    print("Hello " + textInput.value());
+    print("Hello " + nounInput.value());
     print("I am going to " + secondInput.value())
 }
