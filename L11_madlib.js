@@ -32,5 +32,5 @@ function draw() {
 }
 function updateStory() {
     print("A " +adjInput.value() + nounInput.value() + " was " + verbInput.value() + "ing");
-    print(advInput.value() )
+    print(advInput.value()  + )
 }
