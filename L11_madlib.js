@@ -46,5 +46,5 @@ function updateStory() {
     storyText = storyText.replace("{adv}" , advInput.value());
     storyText = storyText.replace("{place}" , placeInput.value());
     console.log(storyText);
-    textAlign(Align)
+    textAlign(CENTER,CENTER)
 }
