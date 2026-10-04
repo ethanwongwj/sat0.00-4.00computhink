@@ -3,7 +3,7 @@ let button;
 function setup() {
     createCanvas(700,700);
     textInput = createInput()
-    button = 
+    button = createButton()
 }
 function draw() {
     background(220);
