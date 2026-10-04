@@ -9,7 +9,7 @@ function setup() {
 }
 function draw() {
     background(220);
-    textSize(32);
+    textSize();
     textAlign(RIGHT,CENTER);
-    text("give me your name" , width/2)
+    text("give me your name" , width/2-10,110)
 }
