@@ -21,6 +21,9 @@ function setup() {
     button = createButton("Generate");
     button.position(width / 2 , 250 );
     button.mousePressed(updateStory);
+    storyTemplates [
+        ""
+    ]
 }
 function draw() {
     background(220);
