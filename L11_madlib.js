@@ -10,8 +10,8 @@ function setup() {
         storyTemplates [
         "The {adj} {noun} decided to {verb} {adv} at the {place}",
         "One day , a {adj} {noun} wanted to {verb} {adv} in {place}",
-        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place} ?"'
-        "long long time ago , a {adj} {noun"
+        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place} ?",
+        "long long time ago , a {adj} {noun} {verb"
     ]
     template = random(storyTemplates);
     storyText = template.replace("{noun}" , nounInput);
