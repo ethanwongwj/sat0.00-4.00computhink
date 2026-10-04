@@ -12,7 +12,7 @@ function setup() {
     verbInput.position(width / 2 , 120 );
     adjInput = createInput();
     adjInput.position(width / 2 , 100 );
-    secondInput = createInput();
+    advInput = createInput();
     secondInput.position(width / 2 , 120 );
     button = createButton("Generate");
     button.position(width / 2 , 150 );
