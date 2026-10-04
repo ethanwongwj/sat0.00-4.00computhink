@@ -27,7 +27,8 @@ function setup() {
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place} ?"
     ]
     template = random(storyTemplates);
-    storyText = template.replace("{noun}" , "")
+    storyText = template.replace("{noun}" , "dog");
+    storyText
 }
 function draw() {
     background(220);
