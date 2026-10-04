@@ -15,7 +15,7 @@ function setup() {
     advInput = createInput();
     advInput.position(width / 2 , 120 );
     placeInput = createInput();
-    placeInput.position(width)
+    placeInput.position(width / 2 , )
     button = createButton("Generate");
     button.position(width / 2 , 150 );
     button.mousePressed(updateStory);
