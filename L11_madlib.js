@@ -12,7 +12,7 @@ function setup() {
         "One day , a {adj} {noun} wanted to {verb} {adv} in {place}",
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place} ?",
         "long long time ago , a {adj} {noun} {verb} {adv} on the {place}",
-        "Once "
+        "Once upon a time, a "
     ]
     createCanvas(700,700);
     nounInput = createInput();
