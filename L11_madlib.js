@@ -14,7 +14,7 @@ function setup() {
         "long long time ago , a {adj} {noun} {verb} {adv} on the {place}"
     ]
     template = random(storyTemplates);
-    storyText = template.replace("{noun}" , nounInput);
+    storyText = template.replace("{noun}" , nounInput.value());
     storyText = storyText.replace("{adj}" , adjInput);
     storyText = storyText.replace("{verb}" , verbInput);
     storyText = storyText.replace("{adv}" , advInput);
