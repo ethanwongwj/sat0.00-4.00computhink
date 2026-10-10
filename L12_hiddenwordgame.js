@@ -1,6 +1,6 @@
 let textInput;
 let submitButton;
-let wordArray = ["banana" , "potato" , "apple" , ]
+let wordArray = ["banana" , "potato" , "apple" , "orange"]
 function setup() {
     createCanvas(600,400);
     background(220);
