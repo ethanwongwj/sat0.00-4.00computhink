@@ -1,5 +1,5 @@
 let textinput;
-let button;
+let subbutton;
 function setup() {
     createCanvas(600,400);
     background(220);
@@ -8,7 +8,7 @@ function setup() {
     textinput.createInput()
     textinput.position(width / 2 + offsetX + 100 , height / 2 + offsetY);
     subbutton = createButton("Submit");
-    button.position(width / 2 , offsetX - 80, height / 2 + offsetY );
+    subbutton.position(width / 2 , offsetX - 80, height / 2 + offsetY );
 }
 function draw() {
 }
