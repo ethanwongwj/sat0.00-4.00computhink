@@ -2,8 +2,8 @@ let input;
 function setup() {
     createCanvas(600,400);
     background(220);
-    ffsetY = thisCanvas.offsetLeft;
-    ffsetX = thisCanvas.offsetTop 
+    offsetY = thisCanvas.offsetLeft;
+    offsetX = thisCanvas.offsetTop; 
 }
 function draw() {
     Input.createInput()
