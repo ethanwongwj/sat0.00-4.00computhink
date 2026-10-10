@@ -20,6 +20,6 @@ function submitGuess() {
     fill(0);
     textSize(28);
     background(220);
-    text
+    textInput.style
     text(inputText, width / 2, height / 3);
 }
