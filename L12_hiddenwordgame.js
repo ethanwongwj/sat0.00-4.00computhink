@@ -5,7 +5,7 @@ function setup() {
     background(220);
     let offsetX = this.canvas.offsetLeft;
     let offsetY = this.canvas.offsetTop; 
-    
+    textInput
     textInput = createInput()
     textInput.position(width / 2 + offsetX - 100 , height / 2 + offsetY);
     submitButton = createButton("Submit");
