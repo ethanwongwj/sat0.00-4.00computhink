@@ -9,7 +9,7 @@ function setup() {
     textinput.position(width / 2 + offsetX + 100 , height / 2 + offsetY);
     submitbutton = createButton("Submit");
     submitbutton.position(width / 2 , offsetX - 80, height / 2 + offsetY );
-    button.mousePressed(submitguess);
+    submitbutton.mousePressed(submitguess);
 }
 function draw() {
 }
