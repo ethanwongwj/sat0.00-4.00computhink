@@ -1,9 +1,11 @@
-let input;
+let Input;
 function setup() {
     createCanvas(600,400);
     background(220);
     offsetY = thisCanvas.offsetLeft;
     offsetX = thisCanvas.offsetTop; 
+        Input.createInput()
+    Input.position(300 , 200 );
 }
 function draw() {
 }
