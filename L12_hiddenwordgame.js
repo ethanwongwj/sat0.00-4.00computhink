@@ -32,7 +32,7 @@ function submitGuess() {
     fill(0);
     textSize(28);
     background(220);
-    text("textInput", width / 2, 300);
+    text(textInput.value(), width / 2, 300);
 }
 function correctGuess(guess , word) {
     for(let i = 0 ; i < word.length ; i++){
