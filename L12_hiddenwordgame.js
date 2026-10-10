@@ -7,6 +7,7 @@ function setup() {
     let offsetY = this.canvas.offsetTop; 
     textInput = createInput()
     textInput.position(width / 2 + offsetX - 100 , height / 2 + offsetY);
+    textInput.style(devicePixelRatio)
     submitButton = createButton("Submit");
     submitButton.position(350,200);
     submitButton.mousePressed(submitGuess);
