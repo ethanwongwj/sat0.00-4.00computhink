@@ -1,5 +1,5 @@
-let textinput;
-let submitbutton;
+let textInput;
+let submitButton;
 function setup() {
     createCanvas(600,400);
     background(220);
