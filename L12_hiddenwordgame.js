@@ -1,1 +1,0 @@
-hello niga I'm here to help with any questions or tasks you have. However, I want to remind you to use respectful language. How can I assist you today?
