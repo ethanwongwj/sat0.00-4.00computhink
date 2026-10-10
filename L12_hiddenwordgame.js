@@ -1,6 +1,6 @@
 let textInput;
 let submitButton;
-let wordArray = ["banana" , "potato" , "apple" , "orange"];
+let wordArray = ["banana" , "potato" , "" , ""];
 let randomWord;
 function setup() {
     createCanvas(600,400);
