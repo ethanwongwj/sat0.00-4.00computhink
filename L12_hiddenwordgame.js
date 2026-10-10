@@ -19,6 +19,7 @@ function setup() {
 
     randomWord = random(wordArray);
     displayHint = randomWord[0].toUpperCase() + " " + " _ ".repeat(randomWord.length);
+    fill
 }
 function draw() {
 
