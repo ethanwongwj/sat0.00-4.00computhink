@@ -39,6 +39,7 @@ function correctGuess(guess , word) {
         if (word.includes(guess[i]) && !correctLetters.includes(guess[i])) {
             correctLetters += guess[i];
         }
+        correct
 
     }
 }
