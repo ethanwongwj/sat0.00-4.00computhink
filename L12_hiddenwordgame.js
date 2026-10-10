@@ -6,7 +6,7 @@ function setup() {
     let offsetY = thisCanvas.offsetLeft;
     let offsetX = thisCanvas.offsetTop; 
     Input.createInput()
-    Input.position(width / 2 + offsetX + 100 , 200 );
+    Input.position(width / 2 + offsetX + 100 , height / 2 + o);
     button = createButton("Submit");
     button.position(width / 2 , offsetX - 80, height / 2 + offsetY );
 }
