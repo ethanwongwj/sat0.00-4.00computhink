@@ -1,5 +1,6 @@
 let input;
-ffsetY = thisCanvas.offset
+ffsetY = thisCanvas.offsetLeft;
+ffsetX = 
 function setup() {
     createCanvas(600,400);
     background(220);
