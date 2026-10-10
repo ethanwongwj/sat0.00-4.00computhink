@@ -7,7 +7,6 @@ function setup() {
     let offsetY = this.canvas.offsetTop; 
     textInput = createInput()
     textInput.position(width / 2 + offsetX - 100 , height / 2 + offsetY);
-    textInput.style();
     submitButton = createButton("Submit");
     submitButton.position(350,200);
     submitButton.mousePressed(submitGuess);
@@ -20,6 +19,7 @@ function submitGuess() {
     let inputText = textInput.value();
     fill(0);
     textSize(28);
-    background(220)
+    background(220);
+    text
     text(inputText, width / 2, height / 3);
 }
