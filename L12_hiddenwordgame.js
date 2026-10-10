@@ -12,6 +12,7 @@ function setup() {
     submitButton.mousePressed(submitGuess);
 }
 function draw() {
+    
 }
 
 function submitGuess() {
