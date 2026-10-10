@@ -22,7 +22,7 @@ function setup() {
     fill(0);
     textSize(28);
     textAlign(CENTER, CENTER);
-    text(displayHint, width / 2 , height * 0.4)
+    text(displayHint, width / 2 , height * 0.4);
 }
 function draw() {
 
