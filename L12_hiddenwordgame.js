@@ -2,6 +2,7 @@ let textInput;
 let submitButton;
 let wordArray = ["table" , "tomato" , "pineapple" , "pumpkin" , "potato"];
 let randomWord;
+let displayHint;
 function setup() {
     createCanvas(600,400);
     background(220);
@@ -17,7 +18,7 @@ function setup() {
     submitButton.mousePressed(submitGuess);
 
     randomWord = random(wordArray);
-    displayHint
+    displayHint = 
 }
 function draw() {
 
