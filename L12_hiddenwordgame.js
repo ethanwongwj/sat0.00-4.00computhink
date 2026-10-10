@@ -20,8 +20,8 @@ function submitGuess() {
     fill(0);
     textSize(28);
     background(220);
-    textInput.style("Background-color", "lightblue");;
-    textInput.size("font-Size", "20px");
+    textInput.style("background-color", "lightblue");;
+    textInput.size("font-size", "20px");
     textInput.style("border", "1px skyblue")
     text(inputText, width / 2, height / 3);
 }
