@@ -1,5 +1,6 @@
 let textInput;
 let submitButton;
+let wordArray = []
 function setup() {
     createCanvas(600,400);
     background(220);
