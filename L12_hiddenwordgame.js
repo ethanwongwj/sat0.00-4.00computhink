@@ -5,5 +5,5 @@ function setup() {
 }
 function draw() {
     Input.createInput()
-    
+    Input.position(width / 2 , 190 );
 }
