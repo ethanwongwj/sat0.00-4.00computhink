@@ -16,7 +16,7 @@ function setup() {
     submitButton.position(350,200);
     submitButton.mousePressed(submitGuess);
 
-    randomWord = random(wordArray)
+    randomWord = random(wordArray);
 }
 function draw() {
 
