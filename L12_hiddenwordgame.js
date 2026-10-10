@@ -5,9 +5,9 @@ function setup() {
     background(220);
     let offsetY = this.Canvas.offsetLeft;
     let offsetX = this.Canvas.offsetTop; 
-    input.createInput()
-    input.position(width / 2 + offsetX + 100 , height / 2 + offsetY);
-    button = createButton("Submit");
+    textinput.createInput()
+    textinput.position(width / 2 + offsetX + 100 , height / 2 + offsetY);
+    subbutton = createButton("Submit");
     button.position(width / 2 , offsetX - 80, height / 2 + offsetY );
 }
 function draw() {
