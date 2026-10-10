@@ -7,9 +7,6 @@ function setup() {
     let offsetX = thisCanvas.offsetTop; 
     Input.createInput()
     Input.position(width / 2 + offsetX + 100 , 200 );
-    
-
-
 }
 function draw() {
 }
