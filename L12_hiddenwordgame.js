@@ -3,8 +3,8 @@ let button;
 function setup() {
     createCanvas(600,400);
     background(220);
-    let offsetY = thisCanvas.offsetLeft;
-    let offsetX = thisCanvas.offsetTop; 
+    let offsetY = this.Canvas.offsetLeft;
+    let offsetX = this.Canvas.offsetTop; 
     Input.createInput()
     Input.position(width / 2 + offsetX + 100 , height / 2 + offsetY);
     button = createButton("Submit");
