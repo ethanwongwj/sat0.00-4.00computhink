@@ -15,6 +15,8 @@ function setup() {
     submitButton = createButton("Submit");
     submitButton.position(350,200);
     submitButton.mousePressed(submitGuess);
+
+    randomWord
 }
 function draw() {
 
