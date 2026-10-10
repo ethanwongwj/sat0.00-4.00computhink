@@ -17,6 +17,7 @@ function setup() {
     submitButton.mousePressed(submitGuess);
 
     randomWord = random(wordArray);
+    displayHint
 }
 function draw() {
 
