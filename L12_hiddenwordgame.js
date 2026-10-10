@@ -21,6 +21,6 @@ function submitGuess() {
     textSize(28);
     background(220);
     textInput.style("Background-color", "lightblue");;
-    textInput.size("fontSize")
+    textInput.size("font-Size", "20px");
     text(inputText, width / 2, height / 3);
 }
