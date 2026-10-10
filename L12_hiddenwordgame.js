@@ -16,5 +16,5 @@ function draw() {
 }
 
 function submitGuess() {
-    
+    let inputText = textField.value()
 }
