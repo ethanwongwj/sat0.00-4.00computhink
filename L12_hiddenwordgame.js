@@ -8,7 +8,7 @@ function setup() {
     Input.createInput()
     Input.position(width / 2 + offsetX + 100 , 200 );
     button = createButton("Submit");
-    button.position(width / 2 , offsetX - 80, height );
+    button.position(width / 2 , offsetX - 80, height / 2 , offsetY );
 }
 function draw() {
 }
