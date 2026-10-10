@@ -34,3 +34,4 @@ function submitGuess() {
     background(220);
     text(textInput, width / 2, 300);
 }
+function correctGuess()
