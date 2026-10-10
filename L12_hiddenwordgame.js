@@ -34,6 +34,8 @@ function submitGuess() {
     background(220);
     text(textInput, width / 2, 300);
 }
-function correctGuess() {
-    
+function correctGuess(guess , word) {
+    for(let i = 0 ; i < 10 ; i++){
+        
+    }
 }
