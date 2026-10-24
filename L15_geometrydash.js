@@ -7,6 +7,7 @@ let spikesX = [];
 let spikeWidth = 35;
 let spikeHeight = 50;
 let spikeSpeed = 7.5;
+let gameover = false;
 function setup() {
     createCanvas(1000,700);
     textAlign(CENTER, CENTER);
