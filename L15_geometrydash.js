@@ -41,7 +41,8 @@ function draw() {
             triangle(spikesX[i], height , spikesX[i] + spikeWidth / 2 , height - spikeHeight , spikesX[i] + spikeWidth , height)
         }
     } else {
-        fill(255,0 , 0 )
+        fill( 255 , 0 , 0 );
+        
     }
 }
 
