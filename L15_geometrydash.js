@@ -38,8 +38,7 @@ function draw() {
             if(spikesX[i] < -spikeWidth) {
                 spikesX[i] = width + random(500 , 800);
             }
-            triangle(spikesX[i], height , spikesX[i] + spikeWidth / 2 , height - spikeHeight , spikesX[i] + spikeWidth , height)
-
+            triangle(spikesX[i], height , spikesX[i] + spikeWidth / 2 , height - spikeHeight , spikesX[i] + spikeWidth , height);
             
         }
     } else {
