@@ -29,8 +29,11 @@ function draw() {
     }
     fill("limeGreen");
     rect( playerX , playerY , playerSize , playerSize );
-    
-    fill( 255 , 0 , 0 )
+
+    fill( 255 , 0 , 0 );
+    for( let i = 0 ; i < spikeX.length ; i++) {
+        
+    }
 }
 
 function keyPressed() {
