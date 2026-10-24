@@ -37,6 +37,7 @@ function draw() {
     if(spikesX[i] < -spikeWidth) {
         spikesX[i] = width + random(100 , 300);
     }
+    
 }
 
 function keyPressed() {
