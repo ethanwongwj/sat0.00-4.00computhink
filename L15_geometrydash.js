@@ -1,6 +1,6 @@
 let playerX = 100;
 let player;
-let playerSize = 60;
+let playerSize = 50;
 let velocity = 0;
 let isGrounded = false;
 let spikesX = [];
