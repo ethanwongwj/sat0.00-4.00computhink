@@ -11,5 +11,6 @@ function setup() {
 
 function draw() {
     background(0);
+    FileList()
     rect( playerX , playerY , playerSize , playerSize );
 }
