@@ -3,3 +3,6 @@ let player;
 let playerSize = 30;
 let velocity = 0;
 let isGrounded = false;
+function setup() {
+    createCanvas
+}
