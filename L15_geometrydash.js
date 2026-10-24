@@ -12,7 +12,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     playerY = height - playerSize;
     for( let i = 0 ; i < 3 ; i++ ) {
-        spikeX.push( width + ( i * 300  ) );
+        spikesX.push( width + ( i * 300  ) );
     }  
 }
 
