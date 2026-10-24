@@ -6,7 +6,7 @@ let isGrounded = false;
 let spikesX = [];
 let spikeWidth = 40;
 let spikeHeight = 60;
-let spikeSpeed = 5;
+let spikeSpeed = 10;
 function setup() {
     createCanvas(1200,800);
     textAlign(CENTER, CENTER);
@@ -42,6 +42,6 @@ function draw() {
 
 function keyPressed() {
     if(key === ' ' && isGrounded === true) {
-        velocity = -12
+        velocity = -24
     }
 }
