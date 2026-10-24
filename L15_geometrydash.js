@@ -29,7 +29,8 @@ function draw() {
     }
     fill("limeGreen");
     rect( playerX , playerY , playerSize , playerSize );
-    fill(255,0,0)
+    
+    fill( 255 , 0 , 0 )
 }
 
 function keyPressed() {
