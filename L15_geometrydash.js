@@ -33,8 +33,8 @@ function draw() {
     fill( 255 , 0 , 0 );
     for( let i = 0 ; i < spikeX.length ; i++) {
         spikesX[i] -= spikeSpeed;
-            if(spikesX[i] < -spikeWidth) {
-        spikesX[i] = width + random(100 , 300);
+        if(spikesX[i] < -spikeWidth) {
+            spikesX[i] = width + random(100 , 300);
     }
     }
 }
