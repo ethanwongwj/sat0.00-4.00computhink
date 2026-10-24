@@ -17,29 +17,29 @@ function setup() {
     }  
 }
 
-function draw() {
-    if(!gameover)
-    background(0);
-    velocity += 0.8;
-    playerY += velocity;
-    if (playerY >= ( height - playerSize ) ) {
-        playerY = height - playerSize;
-        isGrounded = true;
-        velocity = 0;
-    } else {
-        isGrounded = false;
-    }
-    fill("limeGreen");
-    rect( playerX , playerY , playerSize , playerSize );
+if(!gameover)
+background(0);
+velocity += 0.8;
+playerY += velocity;
+if (playerY >= ( height - playerSize ) ) {
+    playerY = height - playerSize;
+    isGrounded = true;
+    velocity = 0;
+} else {
+    isGrounded = false;
+}
+fill("limeGreen");
+rect( playerX , playerY , playerSize , playerSize );
 
-    fill( 255 , 0 , 0 );
-    for( let i = 0 ; i < spikesX.length ; i++) {
-        spikesX[i] -= spikeSpeed;
-        if(spikesX[i] < -spikeWidth) {
-            spikesX[i] = width + random(500 , 800);
-        }
-        triangle(spikesX[i], height , spikesX[i] + spikeWidth / 2 , height - spikeHeight , spikesX[i] + spikeWidth , height)
+fill( 255 , 0 , 0 );
+for( let i = 0 ; i < spikesX.length ; i++) {
+    spikesX[i] -= spikeSpeed;
+    if(spikesX[i] < -spikeWidth) {
+        spikesX[i] = width + random(500 , 800);
     }
+    triangle(spikesX[i], height , spikesX[i] + spikeWidth / 2 , height - spikeHeight , spikesX[i] + spikeWidth , height)
+}
+function draw() {
 }
 
 function keyPressed() {
