@@ -11,5 +11,5 @@ function setup() {
 
 function draw() {
     background(0);
-    rect(playerX , p)
+    rect(playerX , playerY);
 }
