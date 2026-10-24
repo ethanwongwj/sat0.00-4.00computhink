@@ -18,8 +18,8 @@ function setup() {
 }
 
 function draw() {
-    if(!gameover) {}
-    background(0);
+    if(!gameover) {
+            background(0);
     velocity += 0.8;
     playerY += velocity;
     if (playerY >= ( height - playerSize ) ) {
@@ -39,6 +39,7 @@ function draw() {
             spikesX[i] = width + random(500 , 800);
         }
         triangle(spikesX[i], height , spikesX[i] + spikeWidth / 2 , height - spikeHeight , spikesX[i] + spikeWidth , height)
+    }
     }
 }
 
