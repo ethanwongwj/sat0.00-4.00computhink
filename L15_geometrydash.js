@@ -25,5 +25,7 @@ function draw() {
 }
 
 function keypressed() {
-    
+    if(key === " " && isGrounded === true) {
+        
+    }
 }
