@@ -12,4 +12,5 @@ function setup() {
 function draw() {
     background(0);
     rect()
+    hj
 }
