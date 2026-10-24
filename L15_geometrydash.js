@@ -1,2 +1,3 @@
-let playerX = 100
-let
+let playerX = 100;
+let player;
+let playerSize = 30;
