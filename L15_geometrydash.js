@@ -18,6 +18,7 @@ function setup() {
 }
 
 function draw() {
+    if(gameover)
     background(0);
     velocity += 0.8;
     playerY += velocity;
