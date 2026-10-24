@@ -19,8 +19,11 @@ function draw() {
         velocity = 0;
     } else {
         isGrounded = false;
-        
     }
     fill("limeGreen");
     rect( playerX , playerY , playerSize , playerSize );
+}
+
+function keypressed() {
+    
 }
