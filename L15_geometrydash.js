@@ -6,6 +6,7 @@ let isGrounded = false;
 let spikex = [];
 let spikesWidth = 20;
 let spikeHeight = 30;
+let spikeSpeed
 function setup() {
     createCanvas(600,400);
     textAlign(CENTER, CENTER);
