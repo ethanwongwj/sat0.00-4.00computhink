@@ -12,6 +12,7 @@ function setup() {
 function draw() {
     background(0);
     velocity += 0.8;
+    playerY
     fill("limeGreen");
     rect( playerX , playerY , playerSize , playerSize );
 }
