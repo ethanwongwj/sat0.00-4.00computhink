@@ -11,6 +11,7 @@ function setup() {
 
 function draw() {
     background(0);
+    
     fill("limeGreen");
     rect( playerX , playerY , playerSize , playerSize );
 }
