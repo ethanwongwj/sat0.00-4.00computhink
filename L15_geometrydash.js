@@ -33,7 +33,7 @@ function draw() {
     fill( 255 , 0 , 0 );
     for( let i = 0 ; i < spikeX.length ; i++) {
         spikesX[i] -= spikeSpeed;
-        
+    for( )
     }
 }
 
