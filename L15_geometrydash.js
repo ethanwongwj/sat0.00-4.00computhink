@@ -24,7 +24,7 @@ function draw() {
     rect( playerX , playerY , playerSize , playerSize );
 }
 
-function keypressed() {
+function keyPressed() {
     if(key === ' ' && isGrounded === true) {
         velocity = -12
     }
