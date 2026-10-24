@@ -27,12 +27,12 @@ function draw() {
             isGrounded = true;
             velocity = 0;
         } else {
-        isGrounded = false;
-    }
-    fill("limeGreen");
-    rect( playerX , playerY , playerSize , playerSize );
+            isGrounded = false;
+        }
+        fill("limeGreen");
+        rect( playerX , playerY , playerSize , playerSize );
     
-    fill( 255 , 0 , 0 );
+        fill( 255 , 0 , 0 );
     for( let i = 0 ; i < spikesX.length ; i++) {
         spikesX[i] -= spikeSpeed;
         if(spikesX[i] < -spikeWidth) {
