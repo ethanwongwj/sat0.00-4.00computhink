@@ -4,7 +4,7 @@ let playerSize = 60;
 let velocity = 0;
 let isGrounded = false;
 let spikesX = [];
-let spikeWidth = 40;
+let spikeWidth = 35;
 let spikeHeight = 50;
 let spikeSpeed = 7.5;
 function setup() {
