@@ -4,5 +4,6 @@ let playerSize = 30;
 let velocity = 0;
 let isGrounded = false;
 function setup() {
-    createCanvas
+    createCanvas(600,400);
+    textAlign
 }
