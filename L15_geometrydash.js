@@ -43,7 +43,7 @@ function draw() {
     } else {
         fill( 255 , 0 , 0 );
         textSize(75);
-        text("G")
+        text("GAME OVER!")
     }
 }
 
