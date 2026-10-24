@@ -40,7 +40,7 @@ function draw() {
             }
             triangle(spikesX[i], height , spikesX[i] + spikeWidth / 2 , height - spikeHeight , spikesX[i] + spikeWidth , height);
             if(
-                playerX + playerSize > spikeX[i] &&
+                playerX + playerSize > spikesX[i] &&
                 playerX < spikesX[i] + SpikeWidth &&
                 playerY + playerSize > height - spikeHeight
             ) {
