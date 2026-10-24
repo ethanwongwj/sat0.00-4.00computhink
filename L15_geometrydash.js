@@ -4,7 +4,8 @@ let playerSize = 30;
 let velocity = 0;
 let isGrounded = false;
 let spikex = [];
-let spike
+let spikesWidth = 20;
+
 function setup() {
     createCanvas(600,400);
     textAlign(CENTER, CENTER);
