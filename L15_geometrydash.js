@@ -4,7 +4,7 @@ let playerSize = 30;
 let velocity = 0;
 let isGrounded = false;
 let spikeX = [];
-let spikesWidth = 20;
+let spikeWidth = 20;
 let spikeHeight = 30;
 let spikeSpeed = 5;
 function setup() {
@@ -33,7 +33,9 @@ function draw() {
     fill( 255 , 0 , 0 );
     for( let i = 0 ; i < spikeX.length ; i++) {
         spikesX[i] -= spikeSpeed;
-    for( )
+    }
+    if(spikesX[i] < -spikeWidth) {
+        spikesX[i]
     }
 }
 
