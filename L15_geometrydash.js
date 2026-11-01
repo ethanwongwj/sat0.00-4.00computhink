@@ -21,7 +21,8 @@ function setup() {
 function draw() {
     if(!gameStarted) {
         background(0);
-        te
+        fill("white");
+        
     }
     if(!gameover) {
         background(0);
