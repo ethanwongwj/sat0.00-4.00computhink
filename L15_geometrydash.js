@@ -60,6 +60,9 @@ function draw() {
         text("GAME OVER!" , width / 2 , height / 2);
     }
 }
+function DrawStartScreen() {
+    
+}
 
 function keyPressed() {
     if(key === ' ' && isGrounded === true) {
