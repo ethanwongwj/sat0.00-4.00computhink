@@ -31,7 +31,7 @@ function draw() {
         }
         fill("lightblue");
         textSize(25);
-        text()
+        text("")
         fill("limeGreen");
         rect( playerX , playerY , playerSize , playerSize );
     
