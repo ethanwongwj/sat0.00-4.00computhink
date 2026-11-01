@@ -63,7 +63,7 @@ function draw() {
 function DrawStartScreen() {
     fill("white");
     textSize(44);
-    text("Press SPACE ")
+    text("Press SPACE To Start" , )
 }
 
 function keyPressed() {
