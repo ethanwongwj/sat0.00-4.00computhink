@@ -69,4 +69,7 @@ function keyPressed() {
     if(key === ' ' && isGrounded === true) {
         velocity = -15;
     }
+    if (keycode === 32) {
+        
+    }
 }
