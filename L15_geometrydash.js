@@ -22,7 +22,7 @@ function draw() {
     if(!gameStarted) {
         drawStartScreen();
     }
-    if(!gameover && gameStarted === true) {
+    if(!gameover) {
         background(0);
         velocity += 0.8;
         playerY += velocity;
