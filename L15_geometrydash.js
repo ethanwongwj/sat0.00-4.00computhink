@@ -60,7 +60,7 @@ function draw() {
         text("GAME OVER!" , width / 2 , height / 2);
     }
 }
-function DrawStartScreen() {
+function drawStartScreen() {
     fill("white");
     textSize(44);
     text("Press SPACE To Start" , width / 2 , height / 2 )
