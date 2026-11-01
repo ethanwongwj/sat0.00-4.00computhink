@@ -8,7 +8,6 @@ let spikeWidth = 42.5;
 let spikeHeight = 60;
 let spikeSpeed = 7.5;
 let gameover = false;
-let gameStarted = false;
 function setup() {
     createCanvas(1000,730);
     textAlign(CENTER, CENTER);
@@ -19,9 +18,6 @@ function setup() {
 }
 
 function draw() {
-    if(!gameStarted) {
-        drawStartScreen()
-    }
     if(!gameover && gamestarted === true) {
         background(0);
         velocity += 0.8;
