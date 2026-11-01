@@ -71,5 +71,6 @@ function keyPressed() {
     }
     if (keycode === 32) {
         gameStarted = true;
+        gameover = false;
     }
 }
