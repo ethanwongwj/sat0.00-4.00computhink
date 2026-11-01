@@ -9,7 +9,7 @@ let spikeHeight = 50;
 let spikeSpeed = 7.5;
 let gameover = false;
 function setup() {
-    createCanvas(1000,75);
+    createCanvas(1000,725);
     textAlign(CENTER, CENTER);
     playerY = height - playerSize;
     for( let i = 0 ; i < 3 ; i++ ) {
