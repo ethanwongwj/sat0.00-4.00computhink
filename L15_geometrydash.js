@@ -29,8 +29,8 @@ function draw() {
         } else {
             isGrounded = false;
         }
-        fill("limeGreen");
-        rect( playerX , playerY , playerSize , playerSize , 25 );
+        fill("limeGreen" , );
+        rect( playerX , playerY , playerSize , playerSize );
     
         fill( 255 , 0 , 0 );
         for( let i = 0 ; i < spikesX.length ; i++) {
