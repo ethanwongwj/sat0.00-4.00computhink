@@ -20,6 +20,7 @@ function setup() {
 
 function draw() {
     if(!gameStarted) {
+        
         background(0);
         fill("white");
         textSize(80);
