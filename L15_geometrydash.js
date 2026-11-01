@@ -71,7 +71,7 @@ function keyPressed() {
     if(key === ' ' && isGrounded === true) {
         velocity = -15;
     }
-    else if (keycode === 32) {
+    else if (keyCode === 32) {
         gameStarted = true;
     }
 }
