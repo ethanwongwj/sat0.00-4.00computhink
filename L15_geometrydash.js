@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-    if(!gameover && gamestarted === true) {
+    if(!gameover) {
         background(0);
         velocity += 0.8;
         playerY += velocity;
@@ -55,11 +55,6 @@ function draw() {
         textSize(75);
         text("GAME OVER!" , width / 2 , height / 2);
     }
-}
-function DrawStartScreen() {
-    fill("white");
-    textSize(44);
-    text("Press SPACE To Start" , width / 2 , height / 2 )
 }
 
 function keyPressed() {
