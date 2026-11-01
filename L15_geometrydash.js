@@ -8,6 +8,7 @@ let spikeWidth = 42.5;
 let spikeHeight = 60;
 let spikeSpeed = 7.5;
 let gameover = false;
+
 function setup() {
     createCanvas(1000,730);
     textAlign(CENTER, CENTER);
@@ -18,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-    if(!gameover) {
+    if(!gameover && gamestarted === true) {
         background(0);
         velocity += 0.8;
         playerY += velocity;
@@ -55,6 +56,11 @@ function draw() {
         textSize(75);
         text("GAME OVER!" , width / 2 , height / 2);
     }
+}
+function DrawStartScreen() {
+    fill("white");
+    textSize(44);
+    text("Press SPACE To Start" , width / 2 , height / 2 )
 }
 
 function keyPressed() {
