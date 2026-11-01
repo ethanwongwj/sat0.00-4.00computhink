@@ -20,7 +20,7 @@ function setup() {
 
 function draw() {
     if(!gameStarted) {
-        drawStartScreen()
+        drawStartScreen();
     }
     if(!gameover && gamestarted === true) {
         background(0);
@@ -70,7 +70,7 @@ function keyPressed() {
     if(key === ' ' && isGrounded === true) {
         velocity = -15;
     }
-    if (keycode === 32) {
+    else if (keycode === 32) {
         gameStarted = true;
     }
 }
