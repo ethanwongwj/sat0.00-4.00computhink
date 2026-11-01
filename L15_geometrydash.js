@@ -8,7 +8,7 @@ let spikeWidth = 42.5;
 let spikeHeight = 60;
 let spikeSpeed = 7.5;
 let gameover = false;
-let game
+let gameSarted
 function setup() {
     createCanvas(1000,730);
     textAlign(CENTER, CENTER);
