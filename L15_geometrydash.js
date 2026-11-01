@@ -20,7 +20,8 @@ function setup() {
 
 function draw() {
     if(!gameStarted) {
-        background(0)
+        background(0);
+        te
     }
     if(!gameover) {
         background(0);
