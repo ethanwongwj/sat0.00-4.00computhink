@@ -61,7 +61,8 @@ function draw() {
     }
 }
 function DrawStartScreen() {
-    fill("white")
+    fill("white");
+    textSize
 }
 
 function keyPressed() {
