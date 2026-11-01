@@ -29,7 +29,7 @@ function draw() {
         } else {
             isGrounded = false;
         }
-        fill("limeGreen" , );
+        fill("limeGreen");
         rect( playerX , playerY , playerSize , playerSize );
     
         fill( 255 , 0 , 0 );
