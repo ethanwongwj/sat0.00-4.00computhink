@@ -23,7 +23,7 @@ function draw() {
         background(0);
         fill("white");
         textSize(80);
-        text("Press SPACE To Start");
+        text("Press SPACE To Start" , );
     }
     if(!gameover) {
         background(0);
