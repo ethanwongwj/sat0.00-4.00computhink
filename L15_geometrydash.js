@@ -70,6 +70,6 @@ function keyPressed() {
         velocity = -15;
     }
     if (keycode === 32) {
-        
+        gameStarted = true;
     }
 }
