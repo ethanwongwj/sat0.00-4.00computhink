@@ -1,6 +1,6 @@
 let playerX = 100;
 let player;
-let playerSize = 50;
+let playerSize = 60;
 let velocity = 0;
 let isGrounded = false;
 let spikesX = [];
@@ -56,6 +56,6 @@ function draw() {
 
 function keyPressed() {
     if(key === ' ' && isGrounded === true) {
-        velocity = -14
+        velocity = -16
     }
 }
