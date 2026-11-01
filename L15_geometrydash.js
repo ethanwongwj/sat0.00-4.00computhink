@@ -31,7 +31,7 @@ function draw() {
         }
         fill("lightblue");
         textSize(25);
-        text("Press SPACE")
+        text("Press SPACE To Jump" , width / 2)
         fill("limeGreen");
         rect( playerX , playerY , playerSize , playerSize );
     
