@@ -21,6 +21,7 @@ function setup() {
 function draw() {
     if(!gameStarted) {
         drawStartScreen();
+        return;
     }
     if(!gameover) {
         background(0);
