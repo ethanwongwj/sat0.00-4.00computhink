@@ -26,7 +26,7 @@ function draw() {
         text("Press SPACE To Start" , width / 2 , height / 2);
         
     }
-    if(!gameover) {
+    if(!gameover && gamestarted) {
         background(0);
         velocity += 0.8;
         playerY += velocity;
