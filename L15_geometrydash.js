@@ -67,6 +67,7 @@ function draw() {
 
 function keyPressed() {
     if(key === ' ' && isGrounded === true) {
+        gameStarted
         velocity = -15;
     }
 }
