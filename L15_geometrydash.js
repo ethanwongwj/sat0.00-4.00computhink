@@ -22,7 +22,7 @@ function draw() {
     if(!gameStarted) {
         background(0);
         fill("white");
-        
+        textSize()
     }
     if(!gameover) {
         background(0);
