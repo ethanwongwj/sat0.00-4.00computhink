@@ -41,7 +41,7 @@ function draw() {
             triangle(spikesX[i], height , spikesX[i] + spikeWidth / 2 , height - spikeHeight , spikesX[i] + spikeWidth , height);
             if(
                 playerX + playerSize > spikesX[i] &&
-                
+                player
                 playerY + playerSize > height - spikeHeight
             ) {
                 gameover = true;
