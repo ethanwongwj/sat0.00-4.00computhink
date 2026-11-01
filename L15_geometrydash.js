@@ -24,7 +24,7 @@ function draw() {
         fill("white");
         textSize(80);
         text("Press SPACE To Start" , Width / 2 , height / 2);
-        
+        if()
     }
     if(!gameover) {
         background(0);
